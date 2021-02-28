@@ -1,0 +1,46 @@
+.exercise-selection-page {
+    padding: 0 20px;
+}
+
+.exercise-cards-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.exercise-option-card-container {
+    display: flex;
+    margin: 10px;
+    background: white;
+    justify-content: center;
+    height: 200px;
+    /*noinspection CssInvalidFunction*/
+    box-shadow: 0 5px 10px rgb(64 64 64 / 20%);
+}
+
+.exercise-option-card-image {
+    width: 40%;
+    background-image: url(https://static01.nyt.com/images/2020/08/24/sports/24mlb-kepner-1/merlin_176084667_69b1099b-0b7e-41ce-bfdf-e407899f10dc-articleLarge.jpg?quality=75&auto=webp&disable=upscale);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.exercise-option-card-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.exercise-option-card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.exercise-option-card-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.reverse-content {
+    flex-direction: row-reverse;
+}
