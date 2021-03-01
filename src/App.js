@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import * as React from 'react';
 import './App.css';
+import {ExerciseSelection} from './components/exercise-selection';
+import {VideoPage} from './components/video-page';
+import {useState} from 'react';
+
+const PAGES = {
+  MAIN: 'main',
+  VIDEO: 'video'
+};
 
 function App() {
+  const [exerciseKey, setExerciseKey] = useState(null);
+  const [currentPage, setCurrentPage] = useState(PAGES.MAIN);
+
+  const onExerciseSelected = (exerciseKey) => {
+    setExerciseKey(exerciseKey);
+    setCurrentPage(PAGES.VIDEO);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {currentPage === PAGES.MAIN
+        ? <ExerciseSelection onExerciseSelected={onExerciseSelected} />
+        : null}
+      {currentPage === PAGES.VIDEO
+        ? <VideoPage exerciseKey={exerciseKey} goBack={() => setCurrentPage(PAGES.MAIN)}/>
+        : null}
     </div>
   );
 }
