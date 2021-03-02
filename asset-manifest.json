@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/belles-baseball-app/static/css/main.f432badc.chunk.css",
+    "main.js": "/belles-baseball-app/static/js/main.c818e092.chunk.js",
+    "main.js.map": "/belles-baseball-app/static/js/main.c818e092.chunk.js.map",
+    "runtime-main.js": "/belles-baseball-app/static/js/runtime-main.41b5bc55.js",
+    "runtime-main.js.map": "/belles-baseball-app/static/js/runtime-main.41b5bc55.js.map",
+    "static/js/2.bd64f54e.chunk.js": "/belles-baseball-app/static/js/2.bd64f54e.chunk.js",
+    "static/js/2.bd64f54e.chunk.js.map": "/belles-baseball-app/static/js/2.bd64f54e.chunk.js.map",
+    "static/js/3.c14ff716.chunk.js": "/belles-baseball-app/static/js/3.c14ff716.chunk.js",
+    "static/js/3.c14ff716.chunk.js.map": "/belles-baseball-app/static/js/3.c14ff716.chunk.js.map",
+    "index.html": "/belles-baseball-app/index.html",
+    "static/css/main.f432badc.chunk.css.map": "/belles-baseball-app/static/css/main.f432badc.chunk.css.map",
+    "static/js/2.bd64f54e.chunk.js.LICENSE.txt": "/belles-baseball-app/static/js/2.bd64f54e.chunk.js.LICENSE.txt",
+    "static/media/second-base-1.b9cef633.mp4": "/belles-baseball-app/static/media/second-base-1.b9cef633.mp4",
+    "static/media/second-base-2.3d4f7b61.mp4": "/belles-baseball-app/static/media/second-base-2.3d4f7b61.mp4",
+    "static/media/second-base-3.ab114fe6.mp4": "/belles-baseball-app/static/media/second-base-3.ab114fe6.mp4",
+    "static/media/second-base-4.d5afd6e7.mp4": "/belles-baseball-app/static/media/second-base-4.d5afd6e7.mp4",
+    "static/media/second-base-5.5169a3f3.mp4": "/belles-baseball-app/static/media/second-base-5.5169a3f3.mp4",
+    "static/media/second-base-6.d55022e2.mp4": "/belles-baseball-app/static/media/second-base-6.d55022e2.mp4",
+    "static/media/second-base-7.23cb3d68.mp4": "/belles-baseball-app/static/media/second-base-7.23cb3d68.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41b5bc55.js",
+    "static/js/2.bd64f54e.chunk.js",
+    "static/css/main.f432badc.chunk.css",
+    "static/js/main.c818e092.chunk.js"
+  ]
+}
