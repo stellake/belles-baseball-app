@@ -1,6 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './fonts/Lora/Lora-Regular.ttf';
+import './fonts/Lora/Lora-Bold.ttf';
+import './fonts/Lora/Lora-BoldItalic.ttf';
+import './fonts/Lora/Lora-Italic.ttf';
+import './fonts/Merriweather/Merriweather-Regular.ttf';
+import './fonts/Merriweather/Merriweather-Black.ttf';
+import './fonts/Merriweather/Merriweather-BlackItalic.ttf';
+import './fonts/Merriweather/Merriweather-Bold.ttf';
+import './fonts/Merriweather/Merriweather-BoldItalic.ttf';
+import './fonts/Merriweather/Merriweather-Light.ttf';
+import './fonts/Merriweather/Merriweather-LightItalic.ttf';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

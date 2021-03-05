@@ -2,8 +2,21 @@ html {
   background: #EFEFEF;
 }
 
+h1 {
+  font-family: 'LoraBold', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+  font-family: 'MerriweatherLight', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
 .App {
   text-align: center;
   max-width: 950px;
   margin: auto;
+  padding-bottom: 50px;
 }
