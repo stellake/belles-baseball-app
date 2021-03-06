@@ -2,6 +2,10 @@
     padding: 0 20px;
 }
 
+.exercise-selection-description {
+    text-align: justify;
+}
+
 .exercise-cards-container {
     display: flex;
     flex-direction: column;
@@ -9,19 +13,46 @@
 
 .exercise-option-card-container {
     display: flex;
-    margin: 10px;
+    flex-direction: row;
+    margin: 10px 0;
     background: white;
     justify-content: center;
-    height: 220px;
+    min-height: 220px;
     /*noinspection CssInvalidFunction*/
     box-shadow: 0 5px 10px rgb(64 64 64 / 20%);
 }
 
+.reverse-content {
+    flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 430px) {
+    .exercise-option-card-container {
+        flex-direction: column;
+        min-height: 0;
+    }
+
+    .reverse-content {
+        flex-direction: column;
+    }
+}
+
 .exercise-option-card-image {
     width: 40%;
-    background-image: url(https://static01.nyt.com/images/2020/08/24/sports/24mlb-kepner-1/merlin_176084667_69b1099b-0b7e-41ce-bfdf-e407899f10dc-articleLarge.jpg?quality=75&auto=webp&disable=upscale);
     background-position: 50% 50%;
     background-size: cover;
+}
+
+.image-1 {
+    background-image: url('../belles-baserunning-images/baserunning8.jpeg');
+}
+
+.image-2 {
+    background-image: url('../belles-baserunning-images/baserunning2.jpeg');
+}
+
+.image-3 {
+    background-image: url('../belles-baserunning-images/baserunning4.jpeg');
 }
 
 .exercise-option-card-content {
@@ -43,8 +74,4 @@
     font-size: 14px;
     margin-bottom: 10px;
     line-height: 1.6;
-}
-
-.reverse-content {
-    flex-direction: row-reverse;
 }
