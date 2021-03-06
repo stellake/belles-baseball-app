@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/belles-baseball-app/static/css/main.92a4f6f5.chunk.css",
-    "main.js": "/belles-baseball-app/static/js/main.6c11e249.chunk.js",
-    "main.js.map": "/belles-baseball-app/static/js/main.6c11e249.chunk.js.map",
+    "main.css": "/belles-baseball-app/static/css/main.3cd4ef08.chunk.css",
+    "main.js": "/belles-baseball-app/static/js/main.2c727d0c.chunk.js",
+    "main.js.map": "/belles-baseball-app/static/js/main.2c727d0c.chunk.js.map",
     "runtime-main.js": "/belles-baseball-app/static/js/runtime-main.41b5bc55.js",
     "runtime-main.js.map": "/belles-baseball-app/static/js/runtime-main.41b5bc55.js.map",
     "static/js/2.bd64f54e.chunk.js": "/belles-baseball-app/static/js/2.bd64f54e.chunk.js",
@@ -10,9 +10,10 @@
     "static/js/3.c14ff716.chunk.js": "/belles-baseball-app/static/js/3.c14ff716.chunk.js",
     "static/js/3.c14ff716.chunk.js.map": "/belles-baseball-app/static/js/3.c14ff716.chunk.js.map",
     "index.html": "/belles-baseball-app/index.html",
-    "static/css/main.92a4f6f5.chunk.css.map": "/belles-baseball-app/static/css/main.92a4f6f5.chunk.css.map",
+    "static/css/main.3cd4ef08.chunk.css.map": "/belles-baseball-app/static/css/main.3cd4ef08.chunk.css.map",
     "static/js/2.bd64f54e.chunk.js.LICENSE.txt": "/belles-baseball-app/static/js/2.bd64f54e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/belles-baseball-app/static/media/Merriweather-Regular.ca8f0ba2.ttf",
+    "static/media/exercise-selection.css": "/belles-baseball-app/static/media/baserunning8.8c2e4770.jpeg",
     "static/media/second-base-1.b9cef633.mp4": "/belles-baseball-app/static/media/second-base-1.b9cef633.mp4",
     "static/media/second-base-2.3d4f7b61.mp4": "/belles-baseball-app/static/media/second-base-2.3d4f7b61.mp4",
     "static/media/second-base-3.ab114fe6.mp4": "/belles-baseball-app/static/media/second-base-3.ab114fe6.mp4",
@@ -24,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.41b5bc55.js",
     "static/js/2.bd64f54e.chunk.js",
-    "static/css/main.92a4f6f5.chunk.css",
-    "static/js/main.6c11e249.chunk.js"
+    "static/css/main.3cd4ef08.chunk.css",
+    "static/js/main.2c727d0c.chunk.js"
   ]
 }
