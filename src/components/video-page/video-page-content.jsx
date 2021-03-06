@@ -54,6 +54,7 @@ export const VideoPageContent = ({ videosToDisplay, goBack }) => {
       <div className="video-wrapper">
         {videosToDisplay.map((video, index) => (
           <VideoCard
+            key={index}
             isVisible={index === videoNumber - 1}
             src={video.src}
           />
