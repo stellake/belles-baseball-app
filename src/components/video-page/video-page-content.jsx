@@ -17,11 +17,12 @@ export const VideoPageContent = ({ videosToDisplay, goBack }) => {
   const currentVideo = videosToDisplay[videoNumber - 1];
 
   const onOptionSelected = (isCorrectAnswer) => {
-    if (!userHasAnswered && isCorrectAnswer) {
-      setScore(score + 1);
-      setHasSelectedCorrectAnswer(true);
-    } else {
-      setHasSelectedCorrectAnswer(false);
+    if (!userHasAnswered) {
+      setHasSelectedCorrectAnswer(isCorrectAnswer);
+
+      if (isCorrectAnswer) {
+        setScore(score + 1);
+      }
     }
 
     setUserHasAnswered(true);
