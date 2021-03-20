@@ -3,7 +3,7 @@ import './exercise-selection.css';
 import '../belles-baserunning-images/baserunning8.jpeg';
 import '../belles-baserunning-images/baserunning2.jpeg';
 import '../belles-baserunning-images/baserunning4.jpeg';
-import {Button} from './shared/button';
+import {PrimaryButton} from './shared/primaryButton';
 import {EXERCISE_KEYS} from '../exercises';
 import {mainPageContent} from '../static-text/main-page-content';
 
@@ -34,7 +34,7 @@ const ExerciseOptionCard = ({ option, onExerciseSelected }) => (
     <div className="exercise-option-card-content">
       <div className="exercise-option-card-title">{option.title}</div>
       <div className="exercise-option-card-description">{option.description}</div>
-      <Button
+      <PrimaryButton
         key={option.key}
         text="Choose this drill"
         onButtonClick={() => onExerciseSelected(option.key)}

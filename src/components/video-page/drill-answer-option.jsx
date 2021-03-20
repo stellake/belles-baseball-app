@@ -1,10 +1,10 @@
 import React from 'react';
 import '../video-page.css';
-import {Button} from '../shared/button';
+import {PrimaryButton} from '../shared/primaryButton';
 
 export const DrillAnswerOption = ({ option, onOptionSelected, shouldDisableButton }) => (
   <div className="question-option" key={option.text}>
-    <Button
+    <PrimaryButton
       key={option.text}
       text={option.text}
       onButtonClick={() => onOptionSelected(option.isCorrectAnswer)}

@@ -1,8 +1,8 @@
 import React from 'react';
 import './button.css';
 
-export const Button = ({ text, onButtonClick, isDisabled }) => {
-  const buttonStyle = `difficulty-button ${isDisabled ? 'disabled' : ''}`;
+export const PrimaryButton = ({ text, onButtonClick, isDisabled }) => {
+  const buttonStyle = `primary-button ${isDisabled ? 'disabled' : ''}`;
 
   return (
     <div

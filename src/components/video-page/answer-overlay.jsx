@@ -1,4 +1,5 @@
 import React from 'react';
+import {SecondaryButton} from '../shared/secondaryButton';
 
 export const AnswerOverlay = ({ hasSelectedCorrectAnswer, isLastVideo, nextExerciseButtonClicked }) => (
   <div className="video-overlay answer-container">
@@ -7,10 +8,7 @@ export const AnswerOverlay = ({ hasSelectedCorrectAnswer, isLastVideo, nextExerc
     </div>
     {isLastVideo
       ? <div>Exercise completed</div>
-      :
-      <div className="next-drill-button" onClick={nextExerciseButtonClicked}>
-        Next drill
-      </div>
+      : <SecondaryButton text="Next drill" onButtonClick={nextExerciseButtonClicked} />
     }
   </div>
 );
