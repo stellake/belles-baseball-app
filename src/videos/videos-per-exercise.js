@@ -10,85 +10,104 @@ import ThirdBase2 from '../videos/third-base-2.mp4';
 import ThirdBase3 from '../videos/third-base-3.mp4';
 import ThirdBase4 from '../videos/third-base-4.mp4';
 import ThirdBase5 from '../videos/third-base-5.mp4';
-import {EXERCISE_KEYS} from '../exercises';
+import { EXERCISE_KEYS } from '../exercises';
 
 const standardGoOption = (isCorrectAnswer) => ({
   text: 'Go!',
-  isCorrectAnswer
+  isCorrectAnswer,
 });
 
 const standardWaitOption = (isCorrectAnswer) => ({
   text: 'Wait...',
-  isCorrectAnswer
+  isCorrectAnswer,
 });
 
 const standardTagUpOption = (isCorrectAnswer) => ({
   text: 'Tag Up',
-  isCorrectAnswer
+  isCorrectAnswer,
 });
 
 // TODO: Sort out the correct/incorrect options
 const basicSecondBaseVideos = [
   {
     src: SecondBase1,
-    options: [standardGoOption(true), standardWaitOption(false)]
+    options: [standardGoOption(true), standardWaitOption(false)],
   },
   {
     src: SecondBase2,
-    options: [standardGoOption(true), standardWaitOption(false)]
+    options: [standardGoOption(true), standardWaitOption(false)],
   },
   {
     src: SecondBase3,
-    options: [standardGoOption(false), standardWaitOption(true)]
+    options: [standardGoOption(false), standardWaitOption(true)],
   },
   {
     src: SecondBase4,
-    options: [standardGoOption(false), standardWaitOption(true)]
-  }
+    options: [standardGoOption(false), standardWaitOption(true)],
+  },
 ];
 
 const intermediateSecondBaseVideos = [
   ...basicSecondBaseVideos,
   {
     src: SecondBase5,
-    options: [standardGoOption(false), standardWaitOption(true)]
+    options: [standardGoOption(false), standardWaitOption(true)],
   },
   {
     src: SecondBase6,
-    options: [standardGoOption(false), standardWaitOption(true)]
+    options: [standardGoOption(false), standardWaitOption(true)],
   },
   {
     src: SecondBase7,
-    options: [standardGoOption(true), standardWaitOption(false)]
-  }
+    options: [standardGoOption(true), standardWaitOption(false)],
+  },
 ];
 
 const thirdBaseVideos = [
   {
     src: ThirdBase1,
-    options: [standardGoOption(false), standardWaitOption(false), standardTagUpOption(true)]
+    options: [
+      standardGoOption(false),
+      standardWaitOption(false),
+      standardTagUpOption(true),
+    ],
   },
   {
     src: ThirdBase2,
-    options: [standardGoOption(false), standardWaitOption(false), standardTagUpOption(true)]
+    options: [
+      standardGoOption(false),
+      standardWaitOption(false),
+      standardTagUpOption(true),
+    ],
   },
   {
     src: ThirdBase3,
-    options: [standardGoOption(true), standardWaitOption(false), standardTagUpOption(false)]
+    options: [
+      standardGoOption(true),
+      standardWaitOption(false),
+      standardTagUpOption(false),
+    ],
   },
   {
     src: ThirdBase4,
-    options: [standardGoOption(false), standardWaitOption(true), standardTagUpOption(false)]
+    options: [
+      standardGoOption(false),
+      standardWaitOption(true),
+      standardTagUpOption(false),
+    ],
   },
   {
     src: ThirdBase5,
-    options: [standardGoOption(true), standardWaitOption(false), standardTagUpOption(false)]
-  }
+    options: [
+      standardGoOption(true),
+      standardWaitOption(false),
+      standardTagUpOption(false),
+    ],
+  },
 ];
-
 
 export const videosByExercise = {
   [EXERCISE_KEYS.BASIC_SECOND_BASE]: basicSecondBaseVideos,
   [EXERCISE_KEYS.INTERMEDIATE_SECOND_BASE]: intermediateSecondBaseVideos,
-  [EXERCISE_KEYS.BASIC_THIRD_BASE]: thirdBaseVideos
+  [EXERCISE_KEYS.BASIC_THIRD_BASE]: thirdBaseVideos,
 };

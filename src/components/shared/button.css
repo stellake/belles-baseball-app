@@ -1,31 +1,31 @@
 .primary-button {
-    font-family: 'LoraBold', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: 'LoraBold', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-    font-size: 0.95rem;
-    color: white;
-    background: #2e586a;
-    padding: 10px 0;
-    border-radius: 2px;
-    max-width: 340px;
-    width: 100%;
-    margin: 5px auto;
-    cursor: pointer;
+  font-size: 0.95rem;
+  color: white;
+  background: #2e586a;
+  padding: 10px 0;
+  border-radius: 2px;
+  max-width: 340px;
+  width: 100%;
+  margin: 5px auto;
+  cursor: pointer;
 }
 
 .secondary-button {
-    background: #00000096;
-    padding: 10px 0;
-    width: 100%;
-    max-width: 150px;
-    border: 2px solid white;
-    border-radius: 2px;
-    cursor: pointer;
+  background: #00000096;
+  padding: 10px 0;
+  width: 100%;
+  max-width: 150px;
+  border: 2px solid white;
+  border-radius: 2px;
+  cursor: pointer;
 }
 
 .disabled {
-    /* TODO: Sort out the styling */
-    /*color: #e6e6e6;*/
-    /*background: #949da2;*/
-    cursor: default;
+  /* TODO: Sort out the styling */
+  /*color: #e6e6e6;*/
+  /*background: #949da2;*/
+  cursor: default;
 }

@@ -1,8 +1,12 @@
 import React from 'react';
 import '../video-page.css';
-import {PrimaryButton} from '../shared/primaryButton';
+import { PrimaryButton } from '../shared/primaryButton';
 
-export const DrillAnswerOption = ({ option, onOptionSelected, shouldDisableButton }) => (
+export const DrillAnswerOption = ({
+  option,
+  onOptionSelected,
+  shouldDisableButton,
+}) => (
   <div className="question-option" key={option.text}>
     <PrimaryButton
       key={option.text}

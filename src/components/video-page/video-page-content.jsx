@@ -1,16 +1,16 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import '../video-page.css';
-import {CrossIcon} from '../shared/cross-icon';
-import {VideoCard} from './video-card';
-import {DrillQuestion} from './drill-question';
-import {DrillDetails} from './drill-details';
-import {VideoOverlay} from './video-overlay';
+import { CrossIcon } from '../shared/cross-icon';
+import { VideoCard } from './video-card';
+import { DrillQuestion } from './drill-question';
+import { DrillDetails } from './drill-details';
+import { VideoOverlay } from './video-overlay';
 
 export const QUESTION_STATUS = {
   LOADED: 'loaded',
   VIDEO_STARTED: 'video_started',
   ANSWERED: 'answered',
-  TIMEOUT: 'timeout'
+  TIMEOUT: 'timeout',
 };
 
 const TIMEOUT_SECONDS = 8;
@@ -35,7 +35,9 @@ export const VideoPageContent = ({ videosToDisplay, goBack }) => {
       if (isCorrectAnswer) {
         const maxMillisecondsForAnswering = TIMEOUT_SECONDS * 1000;
         const millisecondsTakenToAnswer = Date.now() - videoStartTime;
-        const scoreForThisRound = Math.floor((maxMillisecondsForAnswering - millisecondsTakenToAnswer) / 100);
+        const scoreForThisRound = Math.floor(
+          (maxMillisecondsForAnswering - millisecondsTakenToAnswer) / 100
+        );
         setScore(score + Math.max(scoreForThisRound, 0));
       }
 
@@ -53,7 +55,7 @@ export const VideoPageContent = ({ videosToDisplay, goBack }) => {
     setSecondsLeftToAnswer(TIMEOUT_SECONDS);
     setQuestionStatus(QUESTION_STATUS.VIDEO_STARTED);
     const timerDown = setInterval(() => {
-      setSecondsLeftToAnswer(seconds => {
+      setSecondsLeftToAnswer((seconds) => {
         // TODO: Handle this properly!
         if (seconds === 0 || seconds === null) {
           if (seconds !== null) {
@@ -64,7 +66,7 @@ export const VideoPageContent = ({ videosToDisplay, goBack }) => {
         } else {
           return seconds - 1;
         }
-      })
+      });
     }, 1000);
   };
 
@@ -104,5 +106,5 @@ export const VideoPageContent = ({ videosToDisplay, goBack }) => {
         />
       </div>
     </div>
-  )
+  );
 };
