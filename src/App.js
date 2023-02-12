@@ -1,10 +1,6 @@
 import React from 'react';
 import './App.css';
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Main } from './pages/main';
 import { MeetTheTeam } from './pages/meet-the-team';
 import { NewMembers } from './pages/new-members';
@@ -16,7 +12,7 @@ function AppRouter() {
   return (
     <Router>
       <div className="App" style={{ display: 'flex', flexDirection: 'column' }}>
-        <NavBar/>
+        <NavBar />
 
         <div style={{ padding: '0 10px' }}>
           <Routes>

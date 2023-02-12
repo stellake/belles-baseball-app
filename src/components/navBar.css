@@ -1,83 +1,86 @@
 .mainNavItem {
-    padding: 5px 10px;
-  }
-  
+  padding: 5px 10px;
+}
+
+.navList {
+  display: flex;
+}
+
+.burgerNav {
+  display: none;
+}
+
+.navListCloseButton {
+  display: none;
+}
+
+.navListContent {
+  display: flex;
+  flex-direction: row;
+}
+
+.listedItems {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+a {
+  color: rgb(85, 26, 139);
+}
+
+@media only screen and (max-width: 768px) {
   .navList {
-    display: flex;
+    position: absolute;
+    background: #a7a7a74a;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
   }
-  
-  .burgerNav {
-    display: none;
-  }
-  
-  .navListCloseButton {
-    display: none;
-  }
-  
+
   .navListContent {
+    width: 300px;
+    padding-top: 10px;
+    background: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    box-shadow: -3px 0 5px 0 #c7c5c5;
   }
-  
+
+  .burgerNav {
+    display: flex;
+    background: white;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .burgerIcon {
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .burgerTitle {
+    margin-left: 10px;
+    text-align: center;
+    font-weight: bold;
+    flex: 1;
+  }
+
+  .navListClosed {
+    display: none;
+  }
+
+  .navListCloseButton {
+    display: block;
+    text-align: right;
+    margin: 5px 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
   .listedItems {
-    list-style: none;
-    padding: 0;
-    display: flex;
+    flex-direction: column;
   }
-  
-  @media only screen and (max-width : 768px) {
-    .navList {
-      position: absolute;
-      background: #a7a7a74a;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      margin: 0;
-    }
-  
-    .navListContent {
-      width: 300px;
-      padding-top: 10px;
-      background: white;
-      display: flex;
-      flex-direction: column;
-      box-shadow: -3px 0 5px 0 #c7c5c5;
-    }
-  
-    .burgerNav {
-      display: flex;
-      background: white;
-      padding: 20px;
-      align-items: center;
-    }
-  
-    .burgerIcon {
-      height: 20px;
-      cursor: pointer;
-    }
-  
-    .burgerTitle {
-      margin-left: 10px;
-      text-align: center;
-      font-weight: bold;
-      flex: 1;
-    }
-    
-    .navListClosed {
-      display: none;
-    }
-  
-    .navListCloseButton {
-      display: block;
-      text-align: right;
-      margin: 5px 20px;
-      cursor: pointer;
-      font-weight: bold;
-    }
-  
-    .listedItems {
-      flex-direction: column;
-    }
-  }
-  
+}
