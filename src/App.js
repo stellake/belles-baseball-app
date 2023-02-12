@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import { Main } from './pages/main';
 import { MeetTheTeam } from './pages/meet-the-team';
 import { NewMembers } from './pages/new-members';
@@ -20,7 +20,7 @@ function AppRouter() {
             <Route path="/whats-on" element={<WhatsOn />} />
             <Route path="/meet-the-team" element={<MeetTheTeam />} />
             <Route path="/training-hub" element={<TrainingHub />} />
-            <Route path="new-members" element={<NewMembers />} />
+            <Route path="/new-members" element={<NewMembers />} />
           </Routes>
         </div>
       </div>
