@@ -1,7 +1,7 @@
 import { EXERCISE_KEYS } from '../exercises';
 
 export const mainPageContent = {
-  title: 'Welcome!',
+  title: 'Training Hub',
   description:
     "This activity has been designed for the Southern Belles baseball team, a new British team who will play in the inaugural BBF Women's League in 2021. This is currently a very basic activity (which we hope will evolve over time) and coaches of other teams may well decide that their level and or their opposition would dictate other actions.\n" +
     'Positive criticism is welcomed. Negative criticism will be ignored.',

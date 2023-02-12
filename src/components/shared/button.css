@@ -11,6 +11,7 @@
   width: 100%;
   margin: 5px auto;
   cursor: pointer;
+  text-align: center;
 }
 
 .secondary-button {
@@ -21,6 +22,7 @@
   border: 2px solid white;
   border-radius: 2px;
   cursor: pointer;
+  text-align: center;
 }
 
 .disabled {
