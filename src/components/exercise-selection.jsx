@@ -5,7 +5,7 @@ import '../belles-baserunning-images/baserunning2.jpeg';
 import '../belles-baserunning-images/baserunning4.jpeg';
 import { PrimaryButton } from './shared/primaryButton';
 import { EXERCISE_KEYS } from '../exercises';
-import { mainPageContent } from '../static-text/main-page-content';
+import { mainPageContent } from '../data/main-page-content';
 
 export const ExerciseSelection = ({ onExerciseSelected }) => (
   <div className="exercise-selection-page">

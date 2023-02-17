@@ -1,0 +1,24 @@
+.main-background-image {
+    position: absolute;
+    top: 0;
+    right: -20px;
+}
+
+.intro-section {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-background-image {
+        display: none;
+    }
+
+    .intro-section {
+        margin-right: 0;
+        align-items: center;
+        text-align: center;
+    }
+}
