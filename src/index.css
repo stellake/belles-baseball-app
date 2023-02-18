@@ -1,82 +1,83 @@
 body {
   margin: 0;
-  font-family: 'MerriweatherLight', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
-    'Helvetica Neue', sans-serif;
+  font-family: "MerriweatherLight", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: 'MerriweatherRegular', source-code-pro, Menlo, Monaco, Consolas,
-    'Courier New', monospace;
+  font-family: "MerriweatherRegular", source-code-pro, Menlo, Monaco, Consolas,
+    "Courier New", monospace;
 }
 
 @font-face {
-  font-family: 'LoraRegular';
-  src: local('LoraRegular'), url('fonts/Lora/Lora-Regular.ttf') format('truetype');
+  font-family: "LoraRegular";
+  src: local("LoraRegular"),
+    url("fonts/Lora/Lora-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'LoraItalic';
-  src: local('LoraItalic'), url('fonts/Lora/Lora-Italic.ttf') format('truetype');
+  font-family: "LoraItalic";
+  src: local("LoraItalic"), url("fonts/Lora/Lora-Italic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'LoraBold';
-  src: local('LoraBold'), url('fonts/Lora/Lora-Bold.ttf') format('truetype');
+  font-family: "LoraBold";
+  src: local("LoraBold"), url("fonts/Lora/Lora-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'LoraBoldItalic';
-  src: local('LoraBoldItalic'),
-    url('fonts/Lora/Lora-BoldItalic.ttf') format('truetype');
+  font-family: "LoraBoldItalic";
+  src: local("LoraBoldItalic"),
+    url("fonts/Lora/Lora-BoldItalic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'MerriweatherRegular';
-  src: local('MerriweatherRegular'),
-    url('fonts/Merriweather/Merriweather-Regular.ttf') format('truetype');
+  font-family: "MerriweatherRegular";
+  src: local("MerriweatherRegular"),
+    url("fonts/Merriweather/Merriweather-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'MerriweatherBold';
-  src: local('MerriweatherBold'),
-    url('fonts/Merriweather/Merriweather-Bold.ttf') format('truetype');
+  font-family: "MerriweatherBold";
+  src: local("MerriweatherBold"),
+    url("fonts/Merriweather/Merriweather-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'MerriweatherBoldItalic';
-  src: local('MerriweatherBoldItalic'),
-    url('fonts/Merriweather/Merriweather-BoldItalic.ttf') format('truetype');
+  font-family: "MerriweatherBoldItalic";
+  src: local("MerriweatherBoldItalic"),
+    url("fonts/Merriweather/Merriweather-BoldItalic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'MerriweatherItalic';
-  src: local('MerriweatherItalic'),
-    url('fonts/Merriweather/Merriweather-Italic.ttf') format('truetype');
+  font-family: "MerriweatherItalic";
+  src: local("MerriweatherItalic"),
+    url("fonts/Merriweather/Merriweather-Italic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'MerriweatherLight';
-  src: local('MerriweatherLight'),
-    url('fonts/Merriweather/Merriweather-Light.ttf') format('truetype');
+  font-family: "MerriweatherLight";
+  src: local("MerriweatherLight"),
+    url("fonts/Merriweather/Merriweather-Light.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'MerriweatherLightItalic';
-  src: local('MerriweatherLightItalic'),
-    url('fonts/Merriweather/Merriweather-LightItalic.ttf') format('truetype');
+  font-family: "MerriweatherLightItalic";
+  src: local("MerriweatherLightItalic"),
+    url("fonts/Merriweather/Merriweather-LightItalic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'MerriweatherBlack';
-  src: local('MerriweatherBlack'),
-    url('fonts/Merriweather/Merriweather-Black.ttf') format('truetype');
+  font-family: "MerriweatherBlack";
+  src: local("MerriweatherBlack"),
+    url("fonts/Merriweather/Merriweather-Black.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'MerriweatherBlackItalic';
-  src: local('MerriweatherBlackItalic'),
-    url('fonts/Merriweather/Merriweather-BlackItalic.ttf') format('truetype');
+  font-family: "MerriweatherBlackItalic";
+  src: local("MerriweatherBlackItalic"),
+    url("fonts/Merriweather/Merriweather-BlackItalic.ttf") format("truetype");
 }

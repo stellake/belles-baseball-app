@@ -1,47 +1,47 @@
 {
-  "name": "baseball-app",
-  "version": "0.1.0",
-  "homepage": "https://bellesbaseball.co.uk",
+  "name": "gatsby-starter-default",
   "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-router-dom": "^6.8.1",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "npx gh-pages -d build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\""
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "@emotion/css": "^11.10.6",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "facepaint": "^1.2.1",
+    "gatsby": "^5.6.1",
+    "gatsby-plugin-emotion": "^8.6.0",
+    "gatsby-plugin-image": "^3.6.0",
+    "gatsby-plugin-manifest": "^5.6.0",
+    "gatsby-plugin-sharp": "^5.6.0",
+    "gatsby-source-filesystem": "^5.6.0",
+    "gatsby-transformer-sharp": "^5.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "gh-pages": "^5.0.0",
-    "prettier": "^2.8.4"
+    "prettier": "^2.8.3"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }

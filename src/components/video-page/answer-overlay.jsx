@@ -1,5 +1,5 @@
-import React from 'react';
-import { SecondaryButton } from '../shared/secondaryButton';
+import React from "react"
+import { SecondaryButton } from "../shared/secondaryButton"
 
 export const AnswerOverlay = ({
   hasSelectedCorrectAnswer,
@@ -8,12 +8,15 @@ export const AnswerOverlay = ({
 }) => (
   <div className="video-overlay answer-container">
     <div className="answer-text">
-      {hasSelectedCorrectAnswer ? 'Correct!' : 'Wrong!'}
+      {hasSelectedCorrectAnswer ? "Correct!" : "Wrong!"}
     </div>
     {isLastVideo ? (
       <div>Exercise completed</div>
     ) : (
-      <SecondaryButton text="Next drill" onButtonClick={nextExerciseButtonClicked} />
+      <SecondaryButton
+        text="Next drill"
+        onButtonClick={nextExerciseButtonClicked}
+      />
     )}
   </div>
-);
+)

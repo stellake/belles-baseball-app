@@ -1,5 +1,5 @@
-import { DrillAnswerOption } from './drill-answer-option';
-import React from 'react';
+import { DrillAnswerOption } from "./drill-answer-option"
+import React from "react"
 
 export const DrillQuestion = ({
   currentVideo,
@@ -9,7 +9,7 @@ export const DrillQuestion = ({
   <div className="question-container">
     <div className="question-text">What would you do?</div>
     <div className="answers-container">
-      {currentVideo.options.map((option) => (
+      {currentVideo.options.map(option => (
         <DrillAnswerOption
           key={option.text}
           option={option}
@@ -19,4 +19,4 @@ export const DrillQuestion = ({
       ))}
     </div>
   </div>
-);
+)

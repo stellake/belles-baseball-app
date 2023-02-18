@@ -1,7 +1,3 @@
-.mainNavItem {
-  padding: 5px 10px;
-}
-
 .navList {
   display: flex;
 }
@@ -23,6 +19,7 @@
   list-style: none;
   padding: 0;
   display: flex;
+  margin: 20px;
 }
 
 a {
@@ -57,15 +54,11 @@ a {
     align-items: center;
   }
 
-  .burgerIcon {
-    height: 20px;
-    cursor: pointer;
-  }
-
   .burgerTitle {
     margin-left: 10px;
     text-align: center;
     font-weight: bold;
+    padding-right: 20px;
     flex: 1;
   }
 

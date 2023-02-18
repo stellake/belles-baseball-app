@@ -1,6 +1,6 @@
-import React from 'react';
-import '../video-page.css';
-import { PrimaryButton } from '../shared/primaryButton';
+import React from "react"
+import "../video-page.css"
+import { PrimaryButton } from "../shared/primaryButton"
 
 export const DrillAnswerOption = ({
   option,
@@ -15,4 +15,4 @@ export const DrillAnswerOption = ({
       isDisabled={shouldDisableButton}
     />
   </div>
-);
+)

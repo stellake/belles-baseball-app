@@ -1,24 +1,26 @@
 .main-background-image {
-    position: absolute;
-    top: 0;
-    right: -20px;
+  position: absolute;
+  top: 0;
+  right: -20px;
+  width: 400px;
+  z-index: -1;
 }
 
 .intro-section {
-    margin-right: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 @media only screen and (max-width: 768px) {
-    .main-background-image {
-        display: none;
-    }
+  .main-background-image {
+    display: none;
+  }
 
-    .intro-section {
-        margin-right: 0;
-        align-items: center;
-        text-align: center;
-    }
+  .intro-section {
+    margin-right: 0;
+    align-items: center;
+    text-align: center;
+  }
 }
