@@ -13,16 +13,14 @@ const Link = ({ href }) => (
   </a>
 )
 
-export default function NewMembers() {
+export default function Membership() {
   return (
     <Layout>
-      <h1>New Members</h1>
+      <h1>Membership</h1>
       <div style={{ marginBottom: 20 }}>Coming soon..</div>
       <div>
         In the meantime, please find the 2023 interest form{" "}
-        <Link href="https://docs.google.com/forms/d/e/1FAIpQLScFZmqms8XaHgbnjj3n17VVoNVkOkhfkOuFmMikbUVoFEcVYQ/viewform" />{" "}
-        and our Instagram account{" "}
-        <Link href="https://www.instagram.com/bellesbaseball/?hl=en" />.
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLScFZmqms8XaHgbnjj3n17VVoNVkOkhfkOuFmMikbUVoFEcVYQ/viewform" />.
       </div>
     </Layout>
   )

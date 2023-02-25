@@ -2,13 +2,14 @@ import React from "react"
 import { BurgerMenuIcon } from "../../../icons/burgerMenu"
 import "./navBar.css"
 import { NavItem } from "./navItem"
+import { FONTS } from '../../../styles/fonts'
 
 export const NavBar = () => {
   const [isOpen, setIsOpen] = React.useState(false)
   const closeNavMenu = () => setIsOpen(false)
   return (
     <nav>
-      <div className="burgerNav">
+      <div className="burgerNav" css={FONTS.semiBold}>
         <div
           css={{
             height: "20px",
@@ -49,8 +50,13 @@ export const NavBar = () => {
               onClick={closeNavMenu}
             />
             <NavItem
-              to="/new-members/"
-              title="New members"
+              to="/membership/"
+              title="Membership"
+              onClick={closeNavMenu}
+            />
+            <NavItem
+              to="/contact-us/"
+              title="Contact us"
               onClick={closeNavMenu}
             />
           </ul>
