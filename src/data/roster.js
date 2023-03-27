@@ -1,107 +1,116 @@
-import paulProfileImage from "../images/team/paul.png"
-import chrisProfileImage from "../images/team/chris.png"
-import markProfileImage from "../images/team/mark.png"
+import ashleyProfileImage from "../images/team/ashley.png";
 import stellaProfileImage from "../images/team/stella.png"
-
-export const coaches2022 = [
-  {
-    name: "Chris Ward",
-    description: "Coach",
-    src: chrisProfileImage,
-  },
-  {
-    name: "Mark Mills",
-    description: "Coach",
-    src: markProfileImage,
-  },
-  {
-    name: "Paul Vernon",
-    description: "Coach",
-    src: paulProfileImage,
-  },
-]
+import emilyProfileImage from '../images/team/emily.png'
+import jessHProfileImage from "../images/team/jessH.png"
+import jessVProfileImage from "../images/team/jessV.png"
+import kaylaProfileImage from '../images/team/kayla.png'
+import lauraBProfileImage from '../images/team/lauraB.png'
+// import lauraHProfileImage from '../images/team/lauraH.png'
+import nuriProfileImage from '../images/team/nuri.png'
+import oonaProfileImage from "../images/team/oona.png"
 
 export const teamMembers2022 = [
   {
-    name: "Jessica Vernon",
-    description: "Manager, pitcher",
-    src: undefined,
-    ig: "https://www.instagram.com/jesicamaevernon/?hl=en",
-  },
-  {
-    name: "Dani Arashida",
-    description: "Outfield",
+    name: "Laura H",
+    description: "#1",
     src: undefined,
   },
   {
-    name: "Laura Bailes",
-    description: "2B",
+    name: "Jess V",
+    description: "#3",
+    src: jessVProfileImage,
+    ig: 'https://www.instagram.com/jesicamaevernon/?hl=en',
+  },
+  {
+    name: "Anna",
+    description: "#4",
     src: undefined,
   },
   {
-    name: "Alex Freund",
-    description: "OF",
-    src: undefined,
-  },
-  {
-    name: "Nuri Gimferrer",
-    description: "2B",
-    src: undefined,
-  },
-  {
-    name: "Jessica Hastings",
-    description: "P",
-    src: undefined,
-  },
-  {
-    name: "Kayla Hoffmann",
-    description: "SS",
-    src: undefined,
-  },
-  {
-    name: "Anna Linsey",
-    description: "3B",
-    src: undefined,
-  },
-  {
-    name: "Carmel Lord",
-    description: "3B",
-    src: undefined,
-  },
-  {
-    name: "Ashley Mackrell",
-    description: "2B",
-    src: undefined,
-  },
-  {
-    name: "Amy Trask",
-    description: "1B",
-    src: undefined,
-  },
-  {
-    name: "Stella Veski",
-    description: "C",
+    name: "Stella",
+    description: "#5",
     src: stellaProfileImage,
     ig: "https://www.instagram.com/stellacatches/?hl=en",
   },
   {
-    name: "Kaylegh Webb",
-    description: "1B/OF",
+    name: "Laura B",
+    description: "#6",
+    src: lauraBProfileImage,
+  },
+  {
+    name: "Kaylegh",
+    description: "#8",
     src: undefined,
   },
   {
-    name: "Emily Wigfall",
-    description: "P",
+    name: "Oona",
+    description: "#10",
+    src: oonaProfileImage,
+    ig: 'https://www.instagram.com/0onay/',
+  },
+  {
+    name: "Ashley",
+    description: "#13",
+    src: ashleyProfileImage,
+  },
+  {
+    name: "Molly",
+    description: "#14",
     src: undefined,
   },
   {
-    name: "Grace Willis",
-    description: "OF",
+    name: "Kate",
+    description: "#17",
     src: undefined,
   },
   {
-    name: "Oona Ylinen",
-    description: "P",
+    name: "Jess H",
+    description: "#19",
+    src: jessHProfileImage,
+  },
+  {
+    name: "Nuri",
+    description: "#20",
+    src: nuriProfileImage,
+  },
+  {
+    name: "Riz",
+    description: "#21",
+    src: undefined,
+  },
+  {
+    name: "Emily",
+    description: "#22",
+    src: emilyProfileImage,
+  },
+  {
+    name: "Lucy",
+    description: "#27",
+    src: undefined,
+  },
+  {
+    name: "Kayla",
+    description: "#28",
+    src: kaylaProfileImage,
+  },
+  {
+    name: "Dom",
+    description: "#31",
+    src: undefined,
+  },
+  {
+    name: "Stef",
+    description: "#32",
+    src: undefined,
+  },
+  {
+    name: "Lucia",
+    description: "#33",
+    src: undefined,
+  },
+  {
+    name: "Dani",
+    description: "#34",
     src: undefined,
   },
 ]

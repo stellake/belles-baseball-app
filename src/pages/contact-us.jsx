@@ -2,22 +2,12 @@ import React from "react"
 import Layout from "../components/shared/layout"
 import Seo from "../components/shared/seo"
 import { SOCIAL_MEDIA } from "../data/links"
-import { COLOURS } from "../styles/colours"
-import { FONTS } from "../styles/fonts";
 import instagram from "../images/instagram.png";
 import facebook from "../images/facebook.png";
 import twitter from "../images/twitter.png";
-
-const Link = ({ href, children }) => (
-  <a
-    css={{ ...FONTS.semiBold, textDecoration: "underline", fontWeight: "bold", color: COLOURS.hotPink, fontSize: '16px' }}
-    target="_blank"
-    rel="noreferrer"
-    href={href}
-  >
-    {children}
-  </a>
-)
+import baseball from "../images/baseball.png"
+import { Link } from "../components/shared/link";
+import { mq } from "../styles/mediaQuery";
 
 const SocialMediaLink = ({ src, href, title }) => (
   <li css={{ display: 'flex', alignItems: 'center' }}>
@@ -40,6 +30,7 @@ export default function ContactUs() {
       <ul css={{ listStyle: 'none', margin: 0 }}>
         {socialMediaData.map((item) => <SocialMediaLink key={item.title} {...item} />)}
       </ul>
+      <img css={mq({ width: [250, 400], float: 'right', marginTop: '-50px'})} src={baseball} alt="Baseballer" />
     </Layout>
   )
 }

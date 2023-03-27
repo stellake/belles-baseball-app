@@ -1,51 +1,60 @@
 import React from "react"
 import Layout from "../components/shared/layout"
 import Seo from "../components/shared/seo"
-import { Link } from "gatsby"
-import { PrimaryButton } from "../components/shared/primaryButton"
-import backgroundImage from "../images/baseball.png"
-import "./main.css"
+import { EASY_FUNDRAISING, MERCH } from "../data/links"
+import { InformationCard } from "../components/shared/informationCard"
+import { InternalPrimaryLinkButton } from "../components/shared/button"
+import { mq } from "../styles/mediaQuery"
+import money from '../images/money.png';
+import heart from '../images/heart.png';
+import happyBox from '../images/happyBox.png';
+
+const howCanYouSupport = [
+  {
+    src: money,
+    title: 'Easy fundraising',
+    description: 'Support our club without paying anything extra',
+    link: {
+      href: EASY_FUNDRAISING,
+      text: 'Join Easy fundraising'
+    }
+  },
+  {
+    src: happyBox,
+    title: 'Get our merch',
+    description: 'Wear our merch when supporting us on game days',
+    link: {
+      href: MERCH,
+      text: 'Buy merch'
+    }
+  },
+  {
+    src: heart,
+    title: 'Follow us',
+    description: 'Give us a like and a follow on social media.',
+    link: {
+      to: '/contact-us/',
+      text: 'Get details'
+    }
+  }
+]
 
 export default function Main() {
   return (
     <Layout>
-      <div css={{ position: "relative", paddingTop: 20, paddingBottom: 40 }}>
-        <div className="intro-section">
-          <h1>Belles Baseball</h1>
-          <div css={{ marginBottom: 20 }}>
-            Interested in upcoming baseball and softball opportunities?
-          </div>
-          <div css={{ maxWidth: 200, width: "100%" }}>
-            <Link to="/new-members" css={{ textDecoration: "none" }}>
-              <PrimaryButton text="Join us" />
-            </Link>
-          </div>
-        </div>
-        <div className="main-background-image">
-          <img src={backgroundImage} alt="Baseball player" />
-        </div>
+      <h1>Belles Baseball</h1>
+      <div css={{ marginBottom: 20 }}>
+        Interested in upcoming baseball and softball opportunities?
       </div>
-      <h2>How can you support us?</h2>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://www.easyfundraising.org.uk/causes/bellesbaseball/"
-          >
-            Easy fundraising
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://www.baseballoutlet.co.uk/team-shops/belles-baseball.html"
-          >
-            Get our merch
-          </a>
-        </li>
-      </ul>
+      <div css={{ marginBottom: '3rem' }}>
+        <InternalPrimaryLinkButton to="/membership" css={{ textDecoration: "none" }}>
+          Learn more
+        </InternalPrimaryLinkButton>
+      </div>
+      <h2>How can you support?</h2>
+      <div css={mq({ display: 'flex', flexDirection: ['column', 'row']})}>
+        {howCanYouSupport.map((item, index) => <InformationCard key={item.title} {...item} reverse={index % 2 === 1} last={index === howCanYouSupport.length - 1} />)}
+      </div>
     </Layout>
   )
 }

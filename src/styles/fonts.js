@@ -13,5 +13,10 @@ export const FONTS = {
         fontFamily: `"WorkSansBold", -apple-system, BlinkMacSystemFont,
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif`
+    },
+    extraBold: {
+        fontFamily: `"WorkSansExtraBold", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif`
     }
 }
