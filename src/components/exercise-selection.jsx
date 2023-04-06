@@ -3,9 +3,10 @@ import "./exercise-selection.css"
 import image1 from "../images/baserunning/baserunning8.jpeg"
 import image2 from "../images/baserunning/baserunning2.jpeg"
 import image3 from "../images/baserunning/baserunning4.jpeg"
-import { PrimaryButton } from "./shared/primaryButton"
 import { EXERCISE_KEYS } from "../exercises"
 import { mainPageContent } from "../data/main-page-content"
+import { SecondaryButton } from "./shared/button"
+import { FONTS } from "../styles/fonts"
 
 export const ExerciseSelection = ({ onExerciseSelected }) => (
   <div className="exercise-selection-page">
@@ -14,7 +15,7 @@ export const ExerciseSelection = ({ onExerciseSelected }) => (
       {mainPageContent.description}
     </p>
     <div className="exercise-cards-container">
-      {mainPageContent.exerciseOptions.map((option, index) => (
+      {mainPageContent.exerciseOptions.map(option => (
         <ExerciseOptionCard
           key={option.key}
           option={option}
@@ -39,30 +40,35 @@ const image = imageKey => {
   }
 }
 
-const ExerciseOptionCard = ({ option, onExerciseSelected }) => (
-  <div
-    className={exerciseOptionCardContainerCss(
-      option.key === EXERCISE_KEYS.INTERMEDIATE_SECOND_BASE
-    )}
-  >
-    <div
-      css={{
-        width: "40%",
-        backgroundPosition: "50% 50%",
-        backgroundSize: "cover",
-        backgroundImage: `url(${image(option.imageKey)})`,
-      }}
-    />
-    <div className="exercise-option-card-content">
-      <div className="exercise-option-card-title">{option.title}</div>
-      <div className="exercise-option-card-description">
-        {option.description}
-      </div>
-      <PrimaryButton
-        key={option.key}
-        text="Choose this drill"
-        onButtonClick={() => onExerciseSelected(option.key)}
+const ExerciseOptionCard = ({ option, onExerciseSelected }) => {
+  const shouldReverse = option.key === EXERCISE_KEYS.INTERMEDIATE_SECOND_BASE
+  return (
+    <div className={exerciseOptionCardContainerCss(shouldReverse)}>
+      <div
+        css={{
+          width: "40%",
+          backgroundPosition: "50% 50%",
+          backgroundSize: "cover",
+          backgroundImage: `url(${image(option.imageKey)})`,
+          borderTopLeftRadius: shouldReverse ? 0 : 30,
+          borderBottomLeftRadius: shouldReverse ? 0 : 30,
+          borderTopRightRadius: shouldReverse ? 30 : 0,
+          borderBottomRightRadius: shouldReverse ? 30 : 0,
+        }}
       />
+      <div className="exercise-option-card-content">
+        <div css={{ ...FONTS.bold, fontSize: 20, marginBottom: "1rem" }}>
+          {option.title}
+        </div>
+        <div css={{ ...FONTS.regular, fontSize: 16, marginBottom: "1.5rem" }}>
+          {option.description}
+        </div>
+        <div css={{ margin: "auto" }}>
+          <SecondaryButton onClick={() => onExerciseSelected(option.key)}>
+            Practise
+          </SecondaryButton>
+        </div>
+      </div>
     </div>
-  </div>
-)
+  )
+}

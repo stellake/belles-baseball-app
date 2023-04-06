@@ -2,7 +2,7 @@ import React from "react"
 import { BurgerMenuIcon } from "../../../icons/burgerMenu"
 import "./navBar.css"
 import { NavItem } from "./navItem"
-import { FONTS } from '../../../styles/fonts'
+import { FONTS } from "../../../styles/fonts"
 
 export const NavBar = () => {
   const [isOpen, setIsOpen] = React.useState(false)

@@ -1,25 +1,28 @@
-import ashleyProfileImage from "../images/team/ashley.png";
+import ashleyProfileImage from "../images/team/ashley.png"
 import stellaProfileImage from "../images/team/stella.png"
-import emilyProfileImage from '../images/team/emily.png'
+import emilyProfileImage from "../images/team/emily.png"
 import jessHProfileImage from "../images/team/jessH.png"
 import jessVProfileImage from "../images/team/jessV.png"
-import kaylaProfileImage from '../images/team/kayla.png'
-import lauraBProfileImage from '../images/team/lauraB.png'
-// import lauraHProfileImage from '../images/team/lauraH.png'
-import nuriProfileImage from '../images/team/nuri.png'
-import oonaProfileImage from "../images/team/oona.png"
+import kateProfileImage from "../images/team/kate.png"
+import kaylaProfileImage from "../images/team/kayla.png"
+import lauraBProfileImage from "../images/team/lauraB.png"
+import lauraHProfileImage from "../images/team/lauraH.png"
+import luciaProfileImage from "../images/team/lucia.png"
+import nuriProfileImage from "../images/team/nuri.png"
+import oonaProfileImage from "../images/team/oona2.png"
+import stefProfileImage from "../images/team/stef.png"
 
 export const teamMembers2022 = [
   {
     name: "Laura H",
     description: "#1",
-    src: undefined,
+    src: lauraHProfileImage,
   },
   {
     name: "Jess V",
     description: "#3",
     src: jessVProfileImage,
-    ig: 'https://www.instagram.com/jesicamaevernon/?hl=en',
+    ig: "https://www.instagram.com/jesicamaevernon/?hl=en",
   },
   {
     name: "Anna",
@@ -46,7 +49,7 @@ export const teamMembers2022 = [
     name: "Oona",
     description: "#10",
     src: oonaProfileImage,
-    ig: 'https://www.instagram.com/0onay/',
+    ig: "https://www.instagram.com/0onay/",
   },
   {
     name: "Ashley",
@@ -61,7 +64,7 @@ export const teamMembers2022 = [
   {
     name: "Kate",
     description: "#17",
-    src: undefined,
+    src: kateProfileImage,
   },
   {
     name: "Jess H",
@@ -101,12 +104,12 @@ export const teamMembers2022 = [
   {
     name: "Stef",
     description: "#32",
-    src: undefined,
+    src: stefProfileImage,
   },
   {
     name: "Lucia",
     description: "#33",
-    src: undefined,
+    src: luciaProfileImage,
   },
   {
     name: "Dani",

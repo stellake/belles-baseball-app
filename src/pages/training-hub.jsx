@@ -9,7 +9,7 @@ const PAGES = {
   VIDEO: "video",
 }
 
-export const TrainingHub = () => {
+export default function TrainingHub() {
   const [exerciseKey, setExerciseKey] = useState(null)
   const [currentPage, setCurrentPage] = useState(PAGES.MAIN)
 
@@ -32,7 +32,5 @@ export const TrainingHub = () => {
     </Layout>
   )
 }
-
-export default TrainingHub
 
 export const Head = () => <Seo title="Training hub" />
