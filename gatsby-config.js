@@ -12,9 +12,10 @@ module.exports = {
     title: `Belles Baseball`,
     description: `The official website of Belles Baseball.`,
     author: `Belles Baseball`,
-    siteUrl: `https://www.bellesbaseball.co.uk/`,
+    siteUrl: `https://www.bellesbaseball.co.uk`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-image`,
     `gatsby-plugin-emotion`,
     {

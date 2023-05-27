@@ -21,7 +21,7 @@ const EventCard = ({ number, title, location, isFirst, firstBorderRadius }) => (
       css={{
         ...FONTS.extraBold,
         fontSize: 64,
-        width: 80,
+        width: 82,
         marginRight: 20,
         textAlign: "center",
       }}
@@ -68,7 +68,7 @@ const MonthOption = ({ text, isSelected, onClick }) => (
 )
 
 export default function WhatsOn() {
-  const [selectedMonth, setSelectedMonth] = React.useState("APRIL")
+  const [selectedMonth, setSelectedMonth] = React.useState("JUNE")
   const events = CALENDAR_CONTENT[selectedMonth].events
   return (
     <Layout>

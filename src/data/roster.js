@@ -14,12 +14,12 @@ import stefProfileImage from "../images/team/stef.png"
 
 export const teamMembers2022 = [
   {
-    name: "Laura H",
+    name: "Laura",
     description: "#1",
     src: lauraHProfileImage,
   },
   {
-    name: "Jess V",
+    name: "Jess",
     description: "#3",
     src: jessVProfileImage,
     ig: "https://www.instagram.com/jesicamaevernon/?hl=en",
@@ -36,7 +36,7 @@ export const teamMembers2022 = [
     ig: "https://www.instagram.com/stellacatches/?hl=en",
   },
   {
-    name: "Laura B",
+    name: "Laura",
     description: "#6",
     src: lauraBProfileImage,
   },
@@ -67,7 +67,7 @@ export const teamMembers2022 = [
     src: kateProfileImage,
   },
   {
-    name: "Jess H",
+    name: "Jess",
     description: "#19",
     src: jessHProfileImage,
   },

@@ -65,7 +65,7 @@ const ExerciseOptionCard = ({ option, onExerciseSelected }) => {
         </div>
         <div css={{ margin: "auto" }}>
           <SecondaryButton onClick={() => onExerciseSelected(option.key)}>
-            Practise
+            Practice
           </SecondaryButton>
         </div>
       </div>
