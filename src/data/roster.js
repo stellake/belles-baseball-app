@@ -19,12 +19,13 @@ export const teamMembers2022 = [
     name: "Laura",
     description: "#1",
     src: lauraHProfileImage,
+    ig: "https://instagram.com/laurahirai/"
   },
   {
     name: "Jess",
     description: "#3",
     src: jessVProfileImage,
-    ig: "https://www.instagram.com/jesicamaevernon/?hl=en",
+    ig: "https://www.instagram.com/jesicamaevernon/",
   },
   {
     name: "Anna",
@@ -35,7 +36,7 @@ export const teamMembers2022 = [
     name: "Stella",
     description: "#5",
     src: stellaProfileImage,
-    ig: "https://www.instagram.com/stellacatches/?hl=en",
+    ig: "https://www.instagram.com/stellacatches/",
   },
   {
     name: "Laura",
@@ -57,6 +58,7 @@ export const teamMembers2022 = [
     name: "Ashley",
     description: "#13",
     src: ashleyProfileImage,
+    ig: "https://www.instagram.com/asmackre13/"
   },
   {
     name: "Molly",
