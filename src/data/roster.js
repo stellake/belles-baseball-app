@@ -1,16 +1,18 @@
-import ashleyProfileImage from "../images/team/ashley.png"
-import stellaProfileImage from "../images/team/stella.png"
-import emilyProfileImage from "../images/team/emily.png"
-import jessHProfileImage from "../images/team/jessH.png"
-import jessVProfileImage from "../images/team/jessV.png"
-import kateProfileImage from "../images/team/kate.png"
-import kaylaProfileImage from "../images/team/kayla.png"
-import lauraBProfileImage from "../images/team/lauraB.png"
-import lauraHProfileImage from "../images/team/lauraH.png"
-import luciaProfileImage from "../images/team/lucia.png"
-import nuriProfileImage from "../images/team/nuri.png"
-import oonaProfileImage from "../images/team/oona2.png"
-import stefProfileImage from "../images/team/stef.png"
+import ashleyProfileImage from "../images/team/ashley1.jpg"
+import stellaProfileImage from "../images/team/stella.jpg"
+import emilyProfileImage from "../images/team/emily.jpg"
+import jessHProfileImage from "../images/team/jessH.jpg"
+import jessVProfileImage from "../images/team/jessV.jpg"
+// import kateProfileImage from "../images/team/kate.png"
+// import kaylaProfileImage from "../images/team/kayla.png"
+import lauraBProfileImage from "../images/team/lauraB.jpg"
+import lauraHProfileImage from "../images/team/lauraH.jpg"
+// import luciaProfileImage from "../images/team/lucia.png"
+import lucyProfileImage from "../images/team/lucy.jpg"
+import mollyProfileImage from "../images/team/molly.jpg"
+import nuriProfileImage from "../images/team/nuri.jpg"
+import oonaProfileImage from "../images/team/oona.jpg"
+// import stefProfileImage from "../images/team/stef.png"
 
 export const teamMembers2022 = [
   {
@@ -59,12 +61,12 @@ export const teamMembers2022 = [
   {
     name: "Molly",
     description: "#14",
-    src: undefined,
+    src: mollyProfileImage,
   },
   {
     name: "Kate",
     description: "#17",
-    src: kateProfileImage,
+    src: undefined,
   },
   {
     name: "Jess",
@@ -89,12 +91,12 @@ export const teamMembers2022 = [
   {
     name: "Lucy",
     description: "#27",
-    src: undefined,
+    src: lucyProfileImage,
   },
   {
     name: "Kayla",
     description: "#28",
-    src: kaylaProfileImage,
+    src: undefined,
   },
   {
     name: "Dom",
@@ -104,12 +106,12 @@ export const teamMembers2022 = [
   {
     name: "Stef",
     description: "#32",
-    src: stefProfileImage,
+    src: undefined,
   },
   {
     name: "Lucia",
     description: "#33",
-    src: luciaProfileImage,
+    src: undefined,
   },
   {
     name: "Dani",

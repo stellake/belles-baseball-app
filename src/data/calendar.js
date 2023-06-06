@@ -14,10 +14,9 @@ export const CALENDAR_CONTENT = {
     longText: "June",
     borderRadius: "20px",
     events: [
-      { number: 3, title: "WBL game day 2", location: "Farnham park" },
+      { number: 3, title: "WBL game day 2", location: "Bristol" },
       { number: 10, title: `HEAT game day 4`, location: "Farnham Park" },
       { number: 14, title: 'Team practice', location: 'Farnham Park' },
-      { number: 24, title: `HEAT game day 5`, location: "Farnham Park" },
     ],
   },
   JULY: {
@@ -25,8 +24,8 @@ export const CALENDAR_CONTENT = {
     longText: "July",
     borderRadius: "20px 0 20px 20px",
     events: [
-      { number: 1, title: "WBL game day 3", location: "Farnham park" },
-      { number: 15, title: "WBL game day 4", location: "Farnham park" },
+      { number: 1, title: "WBL game day 3", location: "Bristol" },
+      { number: 15, title: "WBL game day 4", location: "Finsbury park" },
     ],
   },
 }
