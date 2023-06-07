@@ -1,10 +1,10 @@
-import ashleyProfileImage from "../images/team/ashley1.jpg"
+import ashleyProfileImage from "../images/team/ashley.jpg"
 import stellaProfileImage from "../images/team/stella.jpg"
 import emilyProfileImage from "../images/team/emily.jpg"
 import jessHProfileImage from "../images/team/jessH.jpg"
 import jessVProfileImage from "../images/team/jessV.jpg"
 // import kateProfileImage from "../images/team/kate.png"
-// import kaylaProfileImage from "../images/team/kayla.png"
+import kaylaProfileImage from "../images/team/kayla.jpg"
 import lauraBProfileImage from "../images/team/lauraB.jpg"
 import lauraHProfileImage from "../images/team/lauraH.jpg"
 // import luciaProfileImage from "../images/team/lucia.png"
@@ -98,7 +98,7 @@ export const teamMembers2022 = [
   {
     name: "Kayla",
     description: "#28",
-    src: undefined,
+    src: kaylaProfileImage,
   },
   {
     name: "Dom",
