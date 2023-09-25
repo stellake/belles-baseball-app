@@ -5,10 +5,10 @@ import { COLOURS } from "../styles/colours"
 import { FONTS } from "../styles/fonts"
 import { LocationIcon } from "../icons/locationIcon"
 import { InternalPrimaryLinkButton } from "../components/shared/button"
-import { CALENDAR_CONTENT } from "../data/calendar"
 import threeGirlsImg from "../images/threeGirls.png"
+import WHATS_ON_CONTENT from "../../data/whats-on.json"
 
-const EventCard = ({ number, title, location, isFirst, firstBorderRadius }) => (
+const EventCard = ({ day, description, location, isFirst, firstBorderRadius }) => (
   <div
     css={{
       display: "flex",
@@ -21,17 +21,17 @@ const EventCard = ({ number, title, location, isFirst, firstBorderRadius }) => (
       css={{
         ...FONTS.extraBold,
         fontSize: 64,
-        width: 82,
+        width: 80,
         marginRight: 20,
         textAlign: "center",
       }}
     >
-      {number}
+      {day}
     </div>
     <div
       css={{ display: "flex", flexDirection: "column", alignSelf: "center" }}
     >
-      <div css={{ ...FONTS.regular, fontSize: 18 }}>{title}</div>
+      <div css={{ ...FONTS.regular, fontSize: 18 }}>{description}</div>
       <div
         css={{
           ...FONTS.regular,
@@ -67,33 +67,47 @@ const MonthOption = ({ text, isSelected, onClick }) => (
   </button>
 )
 
+const getBorderRadius = (index) => {
+  if (index === 0) {
+    return '0 20px 20px';
+  }
+  if (index === 2) {
+    return '20px 0 20px 20px';
+  }
+  return '20px';
+}
+
+// TODO: Add support for more than 3 months
+// TODO: Border radius to be added to CSS rather than calculated dynamically
 export default function WhatsOn() {
-  const [selectedMonth, setSelectedMonth] = React.useState("JUNE")
-  const events = CALENDAR_CONTENT[selectedMonth].events
+  const calendarEvents = WHATS_ON_CONTENT.calendar.slice(0, 3);
+  const months = calendarEvents.map((e) => e.month);
+  const [selectedMonth, setSelectedMonth] = React.useState(months[1])
+  const selectedMonthContent = calendarEvents.find((event) => event.month === selectedMonth);
+  const selectedMonthIndex = months.indexOf(selectedMonth);
+
   return (
     <Layout>
-      <h1>What's on?</h1>
-      <p css={{ marginBottom: 40 }}>
-        Find out what we have got planned in the upcoming months.
-      </p>
+      <h1>{WHATS_ON_CONTENT.title}</h1>
+      <p css={{ marginBottom: 40 }}>{WHATS_ON_CONTENT.description}</p>
       <div css={{ display: "flex" }}>
-        {Object.entries(CALENDAR_CONTENT).map(([k, v]) => (
+        {months.map((month) => (
           <MonthOption
-            key={k}
-            text={v.shortText}
-            isSelected={k === selectedMonth}
-            onClick={() => setSelectedMonth(k)}
+            key={month}
+            text={month}
+            isSelected={month === selectedMonth}
+            onClick={() => setSelectedMonth(month)}
           />
         ))}
       </div>
       <div>
-        {events.map((event, index) => (
+        {selectedMonthContent.events.map((event, index) => (
           <div css={{ marginBottom: 15 }}>
             <EventCard
               key={index}
               {...event}
               isFirst={index === 0}
-              firstBorderRadius={CALENDAR_CONTENT[selectedMonth].borderRadius}
+              firstBorderRadius={getBorderRadius(selectedMonthIndex)}
             />
           </div>
         ))}
