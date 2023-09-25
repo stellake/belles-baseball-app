@@ -1,0 +1,66 @@
+{
+    "title": "What's on?",
+    "description": "Find out what we have got planned in the upcoming months.",
+    "calendar": [
+        {
+            "month": "Jul",
+            "events": [
+              {
+                "description": "WBL game day 3",
+                "day": "1",
+                "location": "Bristol"
+              },
+              {
+                "description": "WBL game day 4",
+                "day": "15",
+                "location": "Finsbury park"
+              }
+            ]
+          },
+          {
+            "month": "Aug",
+            "events": [
+              {
+                "description": "HEAT game day 5",
+                "day": "5",
+                "location": "Farnham Park"
+              },
+              {
+                "description": "Beginner session",
+                "day": "9",
+                "location": "Farnham Park"
+              },
+              {
+                "description": "WBL game day 5",
+                "day": "12",
+                "location": "Finsbury park"
+              },
+              {
+                "description": "Team karaoke",
+                "day": "12",
+                "location": "London"
+              },
+              {
+                "description": "WBL game day 6",
+                "day": "19",
+                "location": "Farnham Park"
+              }
+            ]
+          },
+          {
+            "month": "Sep",
+            "events": [
+              {
+                "description": "WBL Finals",
+                "day": "23",
+                "location": "Farnham Park"
+              },
+              {
+                "description": "HEAT game day 6",
+                "day": "30",
+                "location": "Farnham park"
+              }
+            ]
+          }
+    ]
+}
