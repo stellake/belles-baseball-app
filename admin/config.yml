@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: stellake/belles-baseball-app
-  branch: master
+  branch: main
   base_url: https://netlify-cms-github-oauth-provider-nine.vercel.app
   
 media_folder: static/assets
