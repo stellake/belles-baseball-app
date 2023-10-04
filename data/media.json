@@ -55,6 +55,34 @@
       "description": "Bat girl for the day",
       "link": "https://www.facebook.com/photo/?fbid=737047224996626&set=a.537320771635940",
       "image": "/assets/rance-30.jpg"
+    },
+    {
+      "title": "Baseball WATCH ",
+      "date": "2022-11-18",
+      "description": "Belles Baseball Take the You Can Play Pledge!",
+      "link": "https://www.youtube.com/watch?v=fx9hEAgWNTE&t=6s",
+      "image": "/assets/you-can-play.jpg"
+    },
+    {
+      "title": "Baseball LISTEN or WATCH ",
+      "date": "2021-05-17",
+      "description": "Jessica Vernon, History Maker",
+      "link": "https://www.youtube.com/watch?v=k4ETK4wEu6s&t=708s",
+      "image": "/assets/british-baseball-podcast.jpg"
+    },
+    {
+      "title": "Baseball WATCH or LISTEN",
+      "date": "2020-10-19",
+      "description": "Jessica Vernon and the [formerly] Southern Belles",
+      "link": "https://www.youtube.com/watch?v=zST_YV2V9NY&t=106s",
+      "image": "/assets/british-baseball-podcast.jpg"
+    },
+    {
+      "title": "Baseball WATCH",
+      "date": "2022-04-16",
+      "description": "Open de France Féminin de Baseball Game 3 Angels vs Belles ",
+      "link": "https://www.youtube.com/watch?v=Y1bIfM_j08w&t=4935s",
+      "image": "/assets/ffbs-1.jpg"
     }
   ]
 }
