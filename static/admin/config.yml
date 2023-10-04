@@ -30,3 +30,17 @@ collections:
               - { label: 'Description', name: 'description', widget: 'string' }
               - { label: 'Day (number)', name: 'day', widget: 'number', min: 1, max: 31 }
               - { label: 'Location', name: 'location', widget: 'string' }
+      - name: media
+        label: Media page
+        file: data/media.json
+        extension: json
+        fields:
+          - name: articles
+            label: Articles content
+            widget: list
+            fields:
+            - { label: 'Title', name: 'title', widget: 'string' }
+            - { label: 'Date', name: 'date', widget: 'date' }
+            - { label: 'Description', name: 'description', widget: 'string' }
+            - { label: 'Link', name: 'link', widget: 'string' }
+            - { label: 'Image', name: 'image', widget: 'image' }
