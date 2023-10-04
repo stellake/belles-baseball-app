@@ -45,11 +45,6 @@ export const NavBar = () => {
               onClick={closeNavMenu}
             />
             <NavItem
-              to="/training-hub/"
-              title="Training hub"
-              onClick={closeNavMenu}
-            />
-            <NavItem
               to="/membership/"
               title="Membership"
               onClick={closeNavMenu}
