@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Baseball READ",
+      "date": "2023-09-28",
+      "description": "Review of the 2023 season",
+      "link": "https://www.britishbaseball.org.uk/news/review-of-the-20",
+      "image": "/assets/davidpost-0710.jpg"
+    },
+    {
       "title": "Baseball WATCH ",
       "date": "2023-09-28",
       "description": "Interview with Belles Baseball captain Jess Vernon before the Belles win in the WBL Finals ",
@@ -57,11 +64,53 @@
       "image": "/assets/rance-30.jpg"
     },
     {
+      "title": "Baseball READ ",
+      "date": "2023-04-01",
+      "description": "This year seven teams are competing in the BBF Womens League ",
+      "link": "https://www.britishbaseball.org.uk/womens-baseball",
+      "image": "/assets/bbf.png"
+    },
+    {
+      "title": "Baseball WATCH ",
+      "date": "2022-04-18",
+      "description": "Open de France Féminin de Baseball Game 9 Belles vs Normandie",
+      "link": "https://www.youtube.com/watch?v=6d9tiGfgpmM&t=2s",
+      "image": "/assets/ffbs-4.jpg"
+    },
+    {
+      "title": "Baseball WATCH",
+      "date": "2022-04-17",
+      "description": "Open de France Féminin de Baseball Game 6 Haut De France vs Belles",
+      "link": "https://www.youtube.com/watch?v=jlkIV_qOTU4&t=1s",
+      "image": "/assets/ffbs-2.jpg"
+    },
+    {
+      "title": "Baseball WATCH",
+      "date": "2022-04-16",
+      "description": "Open de France Féminin de Baseball Game 3 Angels vs Belles ",
+      "link": "https://www.youtube.com/watch?v=Y1bIfM_j08w&t=4935s",
+      "image": "/assets/ffbs-1.jpg"
+    },
+    {
+      "title": "Baseball WATCH ",
+      "date": "2022-04-16",
+      "description": "Open de France Féminin de Baseball Game 1 Belles vs GOP ",
+      "link": "https://www.youtube.com/watch?v=WeJR8IZ-3e8",
+      "image": "/assets/ffbs-3.jpg"
+    },
+    {
       "title": "Baseball WATCH ",
       "date": "2022-11-18",
       "description": "Belles Baseball Take the You Can Play Pledge!",
       "link": "https://www.youtube.com/watch?v=fx9hEAgWNTE&t=6s",
       "image": "/assets/you-can-play.jpg"
+    },
+    {
+      "title": "Baseball READ",
+      "date": "2021-09-17",
+      "description": "The Belles of Baseball City ",
+      "link": "https://talesfromsport.com/2021/09/17/the-belles-of-baseball-city/",
+      "image": "/assets/belles-2021.webp"
     },
     {
       "title": "Baseball LISTEN or WATCH ",
@@ -76,48 +125,6 @@
       "description": "Jessica Vernon and the [formerly] Southern Belles",
       "link": "https://www.youtube.com/watch?v=zST_YV2V9NY&t=106s",
       "image": "/assets/british-baseball-podcast.jpg"
-    },
-    {
-      "title": "Baseball WATCH",
-      "date": "2022-04-16",
-      "description": "Open de France Féminin de Baseball Game 3 Angels vs Belles ",
-      "link": "https://www.youtube.com/watch?v=Y1bIfM_j08w&t=4935s",
-      "image": "/assets/ffbs-1.jpg"
-    },
-    {
-      "title": "Baseball WATCH ",
-      "date": "2023-10-04",
-      "description": "Open de France Féminin de Baseball Game 1 Belles vs GOP ",
-      "link": "https://www.youtube.com/watch?v=WeJR8IZ-3e8",
-      "image": "/assets/ffbs-3.jpg"
-    },
-    {
-      "title": "Baseball WATCH",
-      "date": "2022-04-17",
-      "description": "Open de France Féminin de Baseball Game 6 Haut De France vs Belles",
-      "link": "https://www.youtube.com/watch?v=jlkIV_qOTU4&t=1s",
-      "image": "/assets/ffbs-2.jpg"
-    },
-    {
-      "title": "Baseball WATCH ",
-      "date": "2022-04-18",
-      "description": "Open de France Féminin de Baseball Game 9 Belles vs Normandie",
-      "link": "https://www.youtube.com/watch?v=6d9tiGfgpmM&t=2s",
-      "image": "/assets/ffbs-4.jpg"
-    },
-    {
-      "title": "Baseball READ",
-      "date": "2021-09-17",
-      "description": "The Belles of Baseball City ",
-      "link": "https://talesfromsport.com/2021/09/17/the-belles-of-baseball-city/",
-      "image": "/assets/belles-2021.webp"
-    },
-    {
-      "title": "Baseball READ ",
-      "date": "2023-04-01",
-      "description": "This year seven teams are competing in the BBF Womens League ",
-      "link": "https://www.britishbaseball.org.uk/womens-baseball",
-      "image": "/assets/bbf.png"
     }
   ]
 }
