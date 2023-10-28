@@ -8,7 +8,13 @@ import { InternalPrimaryLinkButton } from "../components/shared/button"
 import threeGirlsImg from "../images/threeGirls.png"
 import WHATS_ON_CONTENT from "../../data/whats-on.json"
 
-const EventCard = ({ day, description, location, isFirst, firstBorderRadius }) => (
+const EventCard = ({
+  day,
+  description,
+  location,
+  isFirst,
+  firstBorderRadius,
+}) => (
   <div
     css={{
       display: "flex",
@@ -67,31 +73,33 @@ const MonthOption = ({ text, isSelected, onClick }) => (
   </button>
 )
 
-const getBorderRadius = (index) => {
+const getBorderRadius = index => {
   if (index === 0) {
-    return '0 20px 20px';
+    return "0 20px 20px"
   }
   if (index === 2) {
-    return '20px 0 20px 20px';
+    return "20px 0 20px 20px"
   }
-  return '20px';
+  return "20px"
 }
 
 // TODO: Add support for more than 3 months
 // TODO: Border radius to be added to CSS rather than calculated dynamically
 export default function WhatsOn() {
-  const calendarEvents = WHATS_ON_CONTENT.calendar.slice(0, 3);
-  const months = calendarEvents.map((e) => e.month);
+  const calendarEvents = WHATS_ON_CONTENT.calendar.slice(0, 3)
+  const months = calendarEvents.map(e => e.month)
   const [selectedMonth, setSelectedMonth] = React.useState(months[1])
-  const selectedMonthContent = calendarEvents.find((event) => event.month === selectedMonth);
-  const selectedMonthIndex = months.indexOf(selectedMonth);
+  const selectedMonthContent = calendarEvents.find(
+    event => event.month === selectedMonth
+  )
+  const selectedMonthIndex = months.indexOf(selectedMonth)
 
   return (
     <Layout>
       <h1>{WHATS_ON_CONTENT.title}</h1>
       <p css={{ marginBottom: 40 }}>{WHATS_ON_CONTENT.description}</p>
       <div css={{ display: "flex" }}>
-        {months.map((month) => (
+        {months.map(month => (
           <MonthOption
             key={month}
             text={month}

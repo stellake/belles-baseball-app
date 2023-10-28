@@ -19,7 +19,7 @@ export const teamMembers2022 = [
     name: "Laura",
     description: "#1",
     src: lauraHProfileImage,
-    ig: "https://instagram.com/laurahirai/"
+    ig: "https://instagram.com/laurahirai/",
   },
   {
     name: "Jess",
@@ -58,7 +58,7 @@ export const teamMembers2022 = [
     name: "Ashley",
     description: "#13",
     src: ashleyProfileImage,
-    ig: "https://www.instagram.com/asmackre13/"
+    ig: "https://www.instagram.com/asmackre13/",
   },
   {
     name: "Molly",

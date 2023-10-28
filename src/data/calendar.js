@@ -6,7 +6,7 @@ export const CALENDAR_CONTENT = {
     events: [
       { number: 4, title: "Belles 'ON'line season", location: "Zoom" },
       { number: 13, title: `HEAT game day 3`, location: "Farnham Park" },
-      { number: 31, title: 'Team practice', location: 'Farnham Park' }
+      { number: 31, title: "Team practice", location: "Farnham Park" },
     ],
   },
   JUNE: {
@@ -16,7 +16,7 @@ export const CALENDAR_CONTENT = {
     events: [
       { number: 3, title: "WBL game day 2", location: "Bristol" },
       { number: 10, title: `HEAT game day 4`, location: "Farnham Park" },
-      { number: 14, title: 'Team practice', location: 'Farnham Park' },
+      { number: 14, title: "Team practice", location: "Farnham Park" },
     ],
   },
   JULY: {
