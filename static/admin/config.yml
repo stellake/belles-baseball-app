@@ -44,3 +44,4 @@ collections:
             - { label: 'Description', name: 'description', widget: 'string' }
             - { label: 'Link', name: 'link', widget: 'string' }
             - { label: 'Image', name: 'image', widget: 'image' }
+            - { label: 'Tags', name: 'tags', widget: 'list' }
