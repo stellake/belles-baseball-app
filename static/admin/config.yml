@@ -39,9 +39,9 @@ collections:
             label: Articles content
             widget: list
             fields:
-            - { label: 'Title', name: 'title', widget: 'string' }
             - { label: 'Date', name: 'date', widget: 'date' }
+            - { label: 'Title', name: 'title', widget: 'string' }
             - { label: 'Description', name: 'description', widget: 'string' }
-            - { label: 'Link', name: 'link', widget: 'string' }
             - { label: 'Image', name: 'image', widget: 'image' }
-            - { label: 'Tags', name: 'tags', widget: 'list' }
+            - { label: 'Link', name: 'link', widget: 'string' }
+            - { label: 'Link text', name: 'linkText', widget: 'string' }

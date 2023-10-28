@@ -6,7 +6,7 @@
       "description": "No change at the top as Great Britain Fastpitch League season closes",
       "link": "https://www.britishsoftball.org/news/article/no-change-at-the-top-as-great-britain-fastpitch-league-season-closes?utm_campaign=BSF&utm_content=169931458&utm_medium=social&utm_source=facebook&hss_channel=fbp-202316559801118&fbclid=IwAR2tg0Mhsk_HuwfOh9Yt2atoAA3gYYQzzaOFsMzwgm1hue8hQcb_HsFlbhs",
       "image": "/assets/fb_img_1696456504485.jpg",
-      "tags": ["read"]
+      "linkText": "Read article"
     },
     {
       "title": "Baseball",
@@ -14,7 +14,7 @@
       "description": "Review of the 2023 season",
       "link": "https://www.britishbaseball.org.uk/news/review-of-the-20",
       "image": "/assets/davidpost-0710.jpg",
-      "tags": ["read"]
+      "linkText": "Read article"
     },
     {
       "title": "Baseball",
@@ -22,7 +22,7 @@
       "description": "Interview with Belles Baseball captain Jess Vernon before the Belles win in the WBL Finals ",
       "link": "https://www.youtube.com/watch?v=3tfnhtCI1fI&t=21s",
       "image": "/assets/jess-vernon-final-trophy.jpg",
-      "tags": ["watch"]
+      "linkText": "Watch video"
     },
     {
       "title": "Baseball",
@@ -30,7 +30,7 @@
       "description": "Full Highlights - WBL Finals - Telford 26ers v Belles Baseball - 23rd September 2023 ",
       "link": "https://www.youtube.com/watch?v=lbYCL9f6Bkw&t=4s",
       "image": "/assets/journey-sports-logo.jpg",
-      "tags": ["watch"]
+      "linkText": "Watch video"
     },
     {
       "title": "Baseball",
@@ -38,7 +38,7 @@
       "description": "Telford 26ers @ Belles Baseball Club - 23rd September - 3pm",
       "link": "https://www.youtube.com/watch?v=KVc5s74EF5g&t=5222s",
       "image": "/assets/belles-telford-finals.jpg",
-      "tags": ["watch"]
+      "linkText": "Watch video"
     },
     {
       "title": "Fastpitch",
@@ -46,7 +46,7 @@
       "description": "Great Britain Fastpitch League disrupted again by rain ",
       "link": "https://www.britishsoftball.org/news/article/great-britain-fastpitch-league-disrupted-again--by-rain",
       "image": "/assets/heat-fastpitch.jpg",
-      "tags": ["read"]
+      "linkText": "Read article"
     },
     {
       "title": "Fastpitch",
@@ -54,7 +54,7 @@
       "description": "Fastpitch League standards of play rising with the summer heat",
       "link": "https://www.britishsoftball.org/news/article/fastpitch-league-standards-of-play-rising-with-the-summer-heat",
       "image": "/assets/heat-fastpitch-1.jpg",
-      "tags": ["read"]
+      "linkText": "Read article"
     },
     {
       "title": "Fastpitch",
@@ -62,7 +62,7 @@
       "description": "The Stags and The Mix battle to stay on top in the GBFL",
       "link": "https://www.britishsoftball.org/news/article/the-stags-and-the-mix-battle-to-stay-on-top-in-the-gbfl",
       "image": "/assets/megan-pitching.jpg",
-      "tags": ["read"]
+      "linkText": "Read article"
     },
     {
       "title": "Fastpitch",
@@ -70,7 +70,7 @@
       "description": "Great Britain Fastpitch League finally gets the season started",
       "link": "https://www.britishsoftball.org/news/article/great-britain-fastpitch-league-finally-gets-the-season-started?utm_campaign=BSF&utm_content=164757185&utm_medium=social&utm_source=facebook&hss_channel=fbp-202316559801118&fbclid=IwAR09ADosKkOJL-60c_X5w7StdgF3ts7tYhXCQOS0QSev4i91-MDJaaWKy-8",
       "image": "/assets/stella-catching.jpg",
-      "tags": ["read"]
+      "linkText": "Read article"
     },
     {
       "title": "Baseball",
@@ -78,7 +78,7 @@
       "description": "Bat girl for the day",
       "link": "https://www.facebook.com/photo/?fbid=737047224996626&set=a.537320771635940",
       "image": "/assets/rance-30.jpg",
-      "tags": ["like"]
+      "linkText": "Like post"
     },
     {
       "title": "Baseball",
@@ -86,7 +86,7 @@
       "description": "This year seven teams are competing in the BBF Womens League ",
       "link": "https://www.britishbaseball.org.uk/womens-baseball",
       "image": "/assets/bbf.png",
-      "tags": ["read"]
+      "linkText": "Read article"
     },
     {
       "title": "Baseball",
@@ -94,7 +94,7 @@
       "description": "Open de France Féminin de Baseball Game 9 Belles vs Normandie",
       "link": "https://www.youtube.com/watch?v=6d9tiGfgpmM&t=2s",
       "image": "/assets/ffbs-4.jpg",
-      "tags": ["watch"]
+      "linkText": "Watch video"
     },
     {
       "title": "Baseball",
@@ -102,7 +102,7 @@
       "description": "Open de France Féminin de Baseball Game 6 Haut De France vs Belles",
       "link": "https://www.youtube.com/watch?v=jlkIV_qOTU4&t=1s",
       "image": "/assets/ffbs-2.jpg",
-      "tags": ["watch"]
+      "linkText": "Read article"
     },
     {
       "title": "Baseball",
@@ -110,7 +110,7 @@
       "description": "Open de France Féminin de Baseball Game 3 Angels vs Belles ",
       "link": "https://www.youtube.com/watch?v=Y1bIfM_j08w&t=4935s",
       "image": "/assets/ffbs-1.jpg",
-      "tags": ["watch"]
+      "linkText": "Watch video"
     },
     {
       "title": "Baseball",
@@ -118,7 +118,7 @@
       "description": "Open de France Féminin de Baseball Game 1 Belles vs GOP ",
       "link": "https://www.youtube.com/watch?v=WeJR8IZ-3e8",
       "image": "/assets/ffbs-3.jpg",
-      "tags": ["watch"]
+      "linkText": "Watch video"
     },
     {
       "title": "Baseball",
@@ -126,7 +126,7 @@
       "description": "Belles Baseball Take the You Can Play Pledge!",
       "link": "https://www.youtube.com/watch?v=fx9hEAgWNTE&t=6s",
       "image": "/assets/you-can-play.jpg",
-      "tags": ["watch"]
+      "linkText": "Watch video"
     },
     {
       "title": "Baseball",
@@ -134,7 +134,7 @@
       "description": "The Belles of Baseball City ",
       "link": "https://talesfromsport.com/2021/09/17/the-belles-of-baseball-city/",
       "image": "/assets/belles-2021.webp",
-      "tags": ["read"]
+      "linkText": "Read article"
     },
     {
       "title": "Baseball",
@@ -142,7 +142,7 @@
       "description": "Jessica Vernon, History Maker",
       "link": "https://www.youtube.com/watch?v=k4ETK4wEu6s&t=708s",
       "image": "/assets/british-baseball-podcast.jpg",
-      "tags": ["listen", "watch"]
+      "linkText": "Listen or watch"
     },
     {
       "title": "Baseball",
@@ -150,7 +150,7 @@
       "description": "Jessica Vernon and the [formerly] Southern Belles",
       "link": "https://www.youtube.com/watch?v=zST_YV2V9NY&t=106s",
       "image": "/assets/british-baseball-podcast.jpg",
-      "tags": ["listen", "watch"]
+      "linkText": "Listen or watch"
     }
   ]
 }
