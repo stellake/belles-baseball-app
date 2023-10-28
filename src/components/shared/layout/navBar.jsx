@@ -49,6 +49,7 @@ export const NavBar = () => {
               title="Membership"
               onClick={closeNavMenu}
             />
+            <NavItem to="/media/" title="Media" onClick={closeNavMenu} />
             <NavItem
               to="/contact-us/"
               title="Contact us"
