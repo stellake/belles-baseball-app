@@ -7,7 +7,7 @@
       "image": "/assets/belles_baseball_vs_telford_26ers_230920235941.jpg",
       "link": {
         "url": "https://open.spotify.com/episode/7e8OHAoDFmBZvHJd7k3nhI?si=7e5adbeb16ec4520",
-        "text": "Listen to podcast"
+        "text": "Listen or watch"
       }
     },
     {
@@ -106,7 +106,8 @@
       "description": "Belles Bat Girls Throw Out First Pitch on Opening Day ",
       "image": "/assets/rance-30.jpg",
       "link": {
-        "url": "https://www.instagram.com/p/CryOZWHt2wg/"
+        "url": "https://www.instagram.com/p/CryOZWHt2wg/",
+        "text": "Watch video"
       }
     },
     {
@@ -135,7 +136,8 @@
       "description": "British Baseball Federation Women's Baseball League Teams Registration ",
       "image": "/assets/belles_baseball_vs_telford_26ers_230920237563.jpg",
       "link": {
-        "url": "https://www.britishbaseball.org.uk/womens-baseball"
+        "url": "https://www.britishbaseball.org.uk/womens-baseball",
+        "text": "Read article "
       }
     },
     {
@@ -155,7 +157,7 @@
       "image": "/assets/ffbs-2.jpg",
       "link": {
         "url": "https://www.youtube.com/watch?v=jlkIV_qOTU4&t=1s",
-        "text": "Read article"
+        "text": "Watch video"
       }
     },
     {
@@ -184,7 +186,8 @@
       "description": "Belles Defeat Dukes 19-17 in 7-Inning Thriller ",
       "image": "/assets/img_6082.jpg",
       "link": {
-        "url": "https://www.richmondbaseball.co.uk/news/2022/4/3/belles-defeat-dukes-19-17-in-7-inning-thriller"
+        "url": "https://www.richmondbaseball.co.uk/news/2022/4/3/belles-defeat-dukes-19-17-in-7-inning-thriller",
+        "text": "Read article "
       }
     },
     {
@@ -213,7 +216,8 @@
       "description": "London Mayhem vs [formerly] Southern Belles: At The First Ever Women's National Final",
       "image": "/assets/img-20210920-wa0058.jpg",
       "link": {
-        "url": "https://www.sussexexpress.co.uk/sport/other-sport/london-mayhem-vs-southern-belles-brighton-baseball-club-to-host-the-first-ever-womens-national-final-3386103"
+        "url": "https://www.sussexexpress.co.uk/sport/other-sport/london-mayhem-vs-southern-belles-brighton-baseball-club-to-host-the-first-ever-womens-national-final-3386103",
+        "text": "Read article "
       }
     },
     {
@@ -232,7 +236,8 @@
       "description": "Herts Spring League Begins 2021, Sets Women's Baeball Record ",
       "image": "/assets/198826757_313521493726437_3583298089332379128_n.jpg",
       "link": {
-        "url": "https://www.mister-baseball.com/herts-league-2021/"
+        "url": "https://www.mister-baseball.com/herts-league-2021/",
+        "text": "Read article"
       }
     },
     {
@@ -241,7 +246,8 @@
       "description": "First Female to Pitch in the National Baseball League- A Historic Highlight for Jessica Vernon and Herts on Opening Day",
       "image": "/assets/51163709903_80f48c41ae.jpg",
       "link": {
-        "url": "https://hertsbaseball.com/category/adult-leagues/falcons/page/6/"
+        "url": "https://hertsbaseball.com/category/adult-leagues/falcons/page/6/",
+        "text": "Read article"
       }
     },
     {
@@ -250,7 +256,8 @@
       "description": "Herts Spring League Kicks Off 2021 Season in Style",
       "image": "/assets/21-southern-bells33.jpg",
       "link": {
-        "url": "https://hertsbaseball.com/category/events/club-newsherts-spring-league/page/2/"
+        "url": "https://hertsbaseball.com/category/events/club-newsherts-spring-league/page/2/",
+        "text": "Read article "
       }
     },
     {
@@ -259,7 +266,8 @@
       "description": "Belles on BBC South News ",
       "image": "/assets/3-southern-bells24.jpg",
       "link": {
-        "url": "https://www.facebook.com/watch/?v=2929421810717499"
+        "url": "https://www.facebook.com/watch/?v=2929421810717499",
+        "text": "Watch"
       }
     },
     {
@@ -268,7 +276,8 @@
       "description": "Countdown to Herts Spring League 2021 ",
       "image": "/assets/dsc_0416.jpg",
       "link": {
-        "url": "https://hertsbaseball.com/2021/04/02/countdown-to-hsl-first-chance-to-see-the-teams-ahead-of-the-2021-british-baseball-season/"
+        "url": "https://hertsbaseball.com/2021/04/02/countdown-to-hsl-first-chance-to-see-the-teams-ahead-of-the-2021-british-baseball-season/",
+        "text": "Read article "
       }
     },
     {
@@ -277,7 +286,8 @@
       "description": "New League a “Significant Boost” for Women’s Baseball in Britain",
       "image": "/assets/5a110d2d-3ed5-2877-0279-9869b0c1aed5.jpg",
       "link": {
-        "url": "https://www.wbsc.org/en/news/new-league-a-significant-boost-for-womens-baseball-in-britain-wbsc-womens-baseball-commission-chair-hiroko-yamada"
+        "url": "https://www.wbsc.org/en/news/new-league-a-significant-boost-for-womens-baseball-in-britain-wbsc-womens-baseball-commission-chair-hiroko-yamada",
+        "text": "Read article "
       }
     },
     {
@@ -296,7 +306,8 @@
       "description": "British Baseball Federation Announces National Women's Team and League",
       "image": "/assets/wbuk.jpg",
       "link": {
-        "url": "https://www.insidethegames.biz/articles/1095085/british-baseball-womens-league"
+        "url": "https://www.insidethegames.biz/articles/1095085/british-baseball-womens-league",
+        "text": "Read article "
       }
     }
   ]
