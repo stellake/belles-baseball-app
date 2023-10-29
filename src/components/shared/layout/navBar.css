@@ -28,7 +28,7 @@ a {
 
 @media only screen and (max-width: 768px) {
   .navList {
-    position: absolute;
+    position: fixed;
     background: #a7a7a74a;
     top: 0;
     bottom: 0;
