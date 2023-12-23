@@ -23,3 +23,5 @@ Using GitHub pages:
 ```
 npm run deploy
 ```
+
+The site is deployed [here](https://www.bellesbaseball.co.uk/).
