@@ -1,5 +1,13 @@
 ## 🚀 Quick start
 
+Install dependencies
+
+```
+npm install
+```
+
+Start the site
+
 ```
 npm start
 ```
