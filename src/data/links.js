@@ -5,7 +5,7 @@ export const SOCIAL_MEDIA = {
 }
 
 export const REGISTER_INTEREST_FORM =
-  "https://docs.google.com/forms/d/e/1FAIpQLScFZmqms8XaHgbnjj3n17VVoNVkOkhfkOuFmMikbUVoFEcVYQ/viewform"
+  "https://forms.gle/y7fn4nW3ipu7tQ217"
 
 export const MERCH =
   "https://www.baseballoutlet.co.uk/team-shops/belles-baseball.html"
