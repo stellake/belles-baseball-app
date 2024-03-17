@@ -91,33 +91,33 @@ export const InformationCardSecondary = ({
         flex: 1,
       })}
     >
-        <div
-          css={mq({
-            ...FONTS.bold,
-            fontSize: [14, 16],
-            textOverflow: "ellipsis",
-            overflow: "hidden",
-            display: "-webkit-box",
-            "-webkit-line-clamp": "1",
-            "-webkit-box-orient": "vertical",
-          })}
-        >
-          {title}
-        </div>
-        <div
-          css={{
-            ...FONTS.regular,
-            fontSize: [14, 16],
-            textOverflow: "ellipsis",
-            lineHeight: 1.25,
-            overflow: "hidden",
-            display: "-webkit-box",
-            "-webkit-line-clamp": "2",
-            "-webkit-box-orient": "vertical",
-          }}
-        >
-          {description}
-        </div>
+      <div
+        css={mq({
+          ...FONTS.bold,
+          fontSize: [14, 16],
+          textOverflow: "ellipsis",
+          overflow: "hidden",
+          display: "-webkit-box",
+          "-webkit-line-clamp": "1",
+          "-webkit-box-orient": "vertical",
+        })}
+      >
+        {title}
+      </div>
+      <div
+        css={{
+          ...FONTS.regular,
+          fontSize: [14, 16],
+          textOverflow: "ellipsis",
+          lineHeight: 1.25,
+          overflow: "hidden",
+          display: "-webkit-box",
+          "-webkit-line-clamp": "2",
+          "-webkit-box-orient": "vertical",
+        }}
+      >
+        {description}
+      </div>
       {link ? (
         <div css={{ marginTop: 10 }}>
           <CardLink {...link} />
