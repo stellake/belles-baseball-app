@@ -18,7 +18,7 @@ const Article = ({ content }) => {
   return (
     <li
       key={content.title + content.date}
-      css={mq({ listStyle: "none", marginBottom: ["25px", '30px'] })}
+      css={mq({ listStyle: "none", marginBottom: ["25px", "30px"] })}
     >
       <InformationCardSecondary
         title={`${content.title} | ${formatDate(content.date)}`}
@@ -26,7 +26,7 @@ const Article = ({ content }) => {
         src={content.image}
         link={{
           href: content.link.url,
-          text: content.link.text
+          text: content.link.text,
         }}
       />
     </li>
