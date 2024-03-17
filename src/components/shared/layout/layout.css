@@ -280,3 +280,9 @@ body {
   src: local("WorkSansSemiBold"),
     url("/fonts/WorkSans/WorkSans-SemiBold.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "WorkSansItalic";
+  src: local("WorkSansItalic"),
+    url("/fonts/WorkSans/WorkSans-Italic.ttf") format("truetype");
+}

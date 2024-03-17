@@ -9,6 +9,33 @@ import money from "../images/money.png"
 import heart from "../images/heart.png"
 import happyBox from "../images/happyBox.png"
 import homePageImg from "../images/homePage.png"
+import Carousel from "../components/carousel"
+import { FONTS } from "../styles/fonts"
+
+const testimonials = [
+  {
+    text:
+      "‘More grateful than ever to know and love this sport- to have a women’s league, to make the final, to play in the final with such a wonderful, welcoming team...\n" +
+      "Proud to be a National Champion.\n" +
+      "Honoured to know the game in the first place.’",
+    author: "Rose | Since 2023",
+  },
+  {
+    text:
+      "‘So I play baseball now! Been keeping that one quiet.\n" +
+      "Proud to be part of a wicked team, becoming national champs in my first season!\n" +
+      "Pretty cool’",
+    author: "Lucy | Since 2022",
+  },
+  {
+    text: "‘I've been learning to play Baseball since January this year with the most supportive, talented and all-round awesome group of women. I've still got a lot to learn and improve, but I've had an amazing time and can't wait to do it all again next season! National champions, baby!’",
+    author: "Riz | Since 2023",
+  },
+  {
+    text: "‘Get yourself a team that dreams like you do, pushes you to do more, and gets 1% better every day. What a season. What a team.’",
+    author: "Oona | Since 2020",
+  },
+]
 
 const howCanYouSupport = [
   {
@@ -68,7 +95,18 @@ export default function Main() {
           <img width="100%" src={homePageImg} alt="Photos of Belles" />
         </div>
       </div>
-      <h2>How can you support?</h2>
+
+      <h2 css={{ paddingTop: "2rem" }}>Testimonials</h2>
+      <Carousel>
+        {testimonials.map(({ text, author }) => (
+          <div css={{ display: "flex", flexDirection: "column" }}>
+            <p css={{ ...FONTS.italic }}>{text}</p>
+            <div css={{ ...FONTS.bold }}>{author}</div>
+          </div>
+        ))}
+      </Carousel>
+
+      <h2 css={{ paddingTop: "4rem" }}>How can you support?</h2>
       <div css={mq({ display: "flex", flexDirection: ["column", "row"] })}>
         {howCanYouSupport.map((item, index) => (
           <InformationCard
