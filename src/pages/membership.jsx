@@ -55,7 +55,7 @@ export default function Membership() {
   return (
     <Layout>
       <h1>Membership</h1>
-      <p>Use the button below register your interest for 2023 season.</p>
+      <p>Use the button below register your interest for 2024 season.</p>
       <div css={{ marginBottom: "3rem" }}>
         <PrimaryLinkButton href={REGISTER_INTEREST_FORM}>
           Register

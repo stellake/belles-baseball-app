@@ -12,7 +12,6 @@ const buttonStyle = {
   width: "140px",
   height: "44px",
   borderRadius: 1000,
-  display: "inline-block",
   textAlign: "center",
   color: "white",
   cursor: "pointer",

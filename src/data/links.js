@@ -4,7 +4,7 @@ export const SOCIAL_MEDIA = {
   twitter: "https://twitter.com/BellesBaseball",
 }
 
-export const REGISTER_INTEREST_FORM = "https://forms.gle/y7fn4nW3ipu7tQ217"
+export const REGISTER_INTEREST_FORM = "https://forms.gle/stAeiRF8sx4Y6Yzc8"
 
 export const MERCH =
   "https://www.baseballoutlet.co.uk/team-shops/belles-baseball.html"
