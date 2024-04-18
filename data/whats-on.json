@@ -1,66 +1,81 @@
 {
-    "title": "What's on?",
-    "description": "Find out what we have got planned in the upcoming months.",
-    "calendar": [
+  "title": "What's on?",
+  "description": "Find out what we have got planned in the upcoming months.",
+  "calendar": [
+    {
+      "month": "April",
+      "events": [
         {
-            "month": "Jul",
-            "events": [
-              {
-                "description": "WBL game day 3",
-                "day": "1",
-                "location": "Bristol"
-              },
-              {
-                "description": "WBL game day 4",
-                "day": "15",
-                "location": "Finsbury park"
-              }
-            ]
-          },
-          {
-            "month": "Aug",
-            "events": [
-              {
-                "description": "HEAT game day 5",
-                "day": "5",
-                "location": "Farnham Park"
-              },
-              {
-                "description": "Beginner session",
-                "day": "9",
-                "location": "Farnham Park"
-              },
-              {
-                "description": "WBL game day 5",
-                "day": "12",
-                "location": "Finsbury park"
-              },
-              {
-                "description": "Team karaoke",
-                "day": "12",
-                "location": "London"
-              },
-              {
-                "description": "WBL game day 6",
-                "day": "19",
-                "location": "Farnham Park"
-              }
-            ]
-          },
-          {
-            "month": "Sep",
-            "events": [
-              {
-                "description": "WBL Finals",
-                "day": "23",
-                "location": "Farnham Park"
-              },
-              {
-                "description": "HEAT game day 6",
-                "day": "30",
-                "location": "Farnham park"
-              }
-            ]
-          }
-    ]
+          "description": "Bullpen ",
+          "day": "13",
+          "location": "Farnham Park "
+        },
+        {
+          "description": "Player Call",
+          "day": "17",
+          "location": "Online "
+        },
+        {
+          "description": "Coffee Catchup",
+          "day": "20",
+          "location": "Farnham Park "
+        },
+        {
+          "description": "Weeknight Practice",
+          "day": "24",
+          "location": "Farnham Park"
+        },
+        {
+          "description": "Weeknight Pracitce",
+          "day": "30",
+          "location": "Farnham Park"
+        }
+      ]
+    },
+    {
+      "month": "May",
+      "events": [
+        {
+          "description": "Girls in Baseball Event",
+          "day": "11",
+          "location": "LondonSports Wormwood Scrubs "
+        },
+        {
+          "description": "Weeknight Practice",
+          "day": "21",
+          "location": "Farnham Park"
+        },
+        {
+          "description": "Batting Practice",
+          "day": "24",
+          "location": "Sheffield Baseball Club "
+        },
+        {
+          "description": "Women's Baseball League",
+          "day": "25",
+          "location": "Sheffield Baseball Club"
+        }
+      ]
+    },
+    {
+      "month": "June",
+      "events": [
+        {
+          "description": "Batting Practice",
+          "day": "14",
+          "location": "London Mets Baseball Club"
+        },
+        {
+          "description": "Women's Baseball League",
+          "day": "15",
+          "location": "London Mets Baseball Club"
+        },
+        {
+          "description": "Game Day Friendly ",
+          "day": "29",
+          "location": "LondonSports Wormwood Scrubs"
+        }
+      ]
+    }
+  ]
 }
