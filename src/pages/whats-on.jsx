@@ -27,7 +27,7 @@ const EventCard = ({
       css={{
         ...FONTS.extraBold,
         fontSize: 64,
-        width: 80,
+        width: 82,
         marginRight: 20,
         textAlign: "center",
       }}
