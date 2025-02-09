@@ -3,77 +3,112 @@
   "description": "Find out what we have got planned in the upcoming months.",
   "calendar": [
     {
-      "month": "April",
+      "month": "Jan",
       "events": [
-        {
-          "description": "Bullpen ",
-          "day": "13",
-          "location": "Farnham Park "
-        },
         {
           "description": "Player Call",
-          "day": "17",
+          "day": "22",
           "location": "Online "
-        },
-        {
-          "description": "Coffee Catchup",
-          "day": "20",
-          "location": "Farnham Park "
-        },
-        {
-          "description": "Weeknight Practice",
-          "day": "24",
-          "location": "Farnham Park"
-        },
-        {
-          "description": "Weeknight Practice",
-          "day": "30",
-          "location": "Farnham Park"
         }
       ]
     },
     {
-      "month": "May",
+      "month": "Feb",
       "events": [
         {
-          "description": "Girls in Baseball Event",
+          "description": "Weeknight Practice",
+          "day": "4",
+          "location": "Bracknell"
+        },
+        {
+          "description": "Weeknight Practice",
           "day": "11",
-          "location": "LondonSports Wormwood Scrubs "
+          "location": "Bracknell"
         },
         {
           "description": "Weeknight Practice",
-          "day": "21",
-          "location": "Farnham Park"
+          "day": "18",
+          "location": "Bracknell"
         },
         {
-          "description": "Batting Practice",
-          "day": "24",
-          "location": "Sheffield Baseball Club "
+          "description": "BBF Online Scoring Clinic",
+          "day": "19",
+          "location": "Online"
         },
         {
-          "description": "Women's Baseball League",
+          "description": "Weeknight Practice",
           "day": "25",
-          "location": "Sheffield Baseball Club"
+          "location": "Bracknell"
+        },
+        {
+          "description": "BBF Online Scoring Clinic",
+          "day": "27",
+          "location": "Online"
         }
       ]
     },
     {
-      "month": "June",
+      "month": "Mar",
       "events": [
         {
-          "description": "Batting Practice",
-          "day": "14",
-          "location": "London Mets Baseball Club"
+          "description": "BBF Online Scoring Clinic",
+          "day": "6",
+          "location": "Online"
         },
         {
-          "description": "Women's Baseball League",
+          "description": "Weeknight Practice",
+          "day": "11",
+          "location": "Bracknell"
+        },
+        {
+          "description": "BBF Online Scoring Clinic",
+          "day": "12",
+          "location": "Online"
+        },
+        {
+          "description": "Pitching and Catching Clinic",
           "day": "15",
-          "location": "London Mets Baseball Club"
+          "location": "Taunton"
         },
         {
-          "description": "Game Day Friendly ",
-          "day": "29",
-          "location": "LondonSports Wormwood Scrubs"
+          "description": "Baseball Academy",
+          "day": "16",
+          "location": "Farnham Park"
+        },
+        {
+          "description": "Weeknight Practice",
+          "day": "18",
+          "location": "Bracknell"
+        },
+        {
+          "description": "Weeknight Practice",
+          "day": "25",
+          "location": "Bracknell"
+        }
+      ]
+    },
+    {
+      "month": "Apr",
+      "events": [
+        {
+          "description": "Weeknight Practice",
+          "day": "1",
+          "location": "Bracknell"
+        },
+        {
+          "description": "Friendly vs Serpents",
+          "day": "5",
+          "location": "Bristol"
+        },
+        {
+          "description": "Weeknight Practice",
+          "day": "8",
+          "location": "Bracknell"
+        },
+        {
+          "description": "Slowpitch softball game",
+          "day": "19",
+          "location": "Farnham Park"
         }
       ]
     }
