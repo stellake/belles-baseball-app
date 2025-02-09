@@ -24,4 +24,6 @@ Using GitHub pages:
 npm run deploy
 ```
 
+Note that the PW is your PAT.
+
 The site is deployed [here](https://www.bellesbaseball.co.uk/).
